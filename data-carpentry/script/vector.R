@@ -77,12 +77,13 @@ nrow(lines_Delft)
 
 unique(lines_Delft$highway)
 
-# We can also subset multiple values with 
+# We can also subset multiple values using the %in% operator
 slow_Delft <- lines_Delft |> 
   filter(highway %in% c("cycleway", "footway"))
 nrow(slow_Delft)
 unique(slow_Delft$highway)
 
+# 
 cycleway_Delft <- cycleway_Delft |> 
   mutate(length = st_length(geometry))
 
