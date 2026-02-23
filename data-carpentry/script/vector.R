@@ -78,3 +78,5 @@ cycleway_Delft <- cycleway_Delft |>
 cycleway_Delft |> 
   summarise(total_length = sum(length))
 
+# plot the cycleways
+cycleway_Delft
