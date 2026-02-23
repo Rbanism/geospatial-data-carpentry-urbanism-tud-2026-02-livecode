@@ -126,5 +126,6 @@ ggplot(data = lines_Delft) +
 
 ggplot() +
   geom_sf(
-    data 
+    data = boundary_Delft,
+    
   )
