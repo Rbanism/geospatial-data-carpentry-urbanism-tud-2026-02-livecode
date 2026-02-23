@@ -183,4 +183,4 @@ ggplot() +
 
 # Saving a shapefile
 st_write(lines_Delft_selection,
-         "data")
+         "data/")
