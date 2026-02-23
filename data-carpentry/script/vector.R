@@ -39,7 +39,7 @@ ggplot(data=boundary_Delft) +
 lines_Delft <- st_read(here("data", "delft-streets.shp"))
 point_Delft <- st_read(here("data", "delft-leisure.shp"))
 
-# 
+# Examine streets data
 lines_Delft
 ncol(lines_Delft)
 
@@ -49,6 +49,7 @@ head(lines_Delft)
 
 head(lines_Delft$highway)
 
+# 
 unique(lines_Delft$highway)  
 
 # we can also examine unique values by transforming the
