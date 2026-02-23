@@ -91,3 +91,4 @@ ggplot(data = cycleway_Delft) +
 unique(lines_Delft$highway)
 
 
+
