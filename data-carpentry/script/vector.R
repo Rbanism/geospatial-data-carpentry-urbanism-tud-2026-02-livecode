@@ -118,7 +118,7 @@ ggplot(data = lines_Delft) +
     linewidth = 1
   ) +
   labs(
-    
+    title = ""
   ) +
   coord_sf(datum = st_crs(28992))
 
