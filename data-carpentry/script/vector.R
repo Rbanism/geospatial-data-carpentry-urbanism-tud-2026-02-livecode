@@ -73,4 +73,4 @@ nrow(slow_Delft)
 unique(slow_Delft$highway)
 
 cycleway_Delft |> 
-  mutate(length)
+  mutate(length = )
