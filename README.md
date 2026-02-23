@@ -1,7 +1,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # Geospatial Data Carpentry for Urbanism - Notes 
-
+# Hi
 ## Usage Learners 
 The repository should mimic the project structure of the R project that has been created by the instructors during the Data Carpentry. 
 - Go to the file in which the instructor is now coding:
