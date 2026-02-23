@@ -117,7 +117,7 @@ ggplot(data = lines_Delft) +
     aes(color = highway),
     linewidth = 1
   ) +
-  scale_color_manual(value = "magenta") +
+  scale_color_manual(values = "magenta") +
   labs(
     title = "Mobility network in Delft",
     subtitle = "Roads dedicated to bikes"
