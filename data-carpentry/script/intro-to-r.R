@@ -67,4 +67,7 @@ with_na[1]
 with_na[3]
 with_na[1:3]
 
-# Back to our data
+# Back to our gapminder data
+gapminder <- read.csv(here("data", "gapminder-data.csv"))
+str(gapminder)
+
