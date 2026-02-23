@@ -136,7 +136,8 @@ ggplot() +
     linewidth = 1
   ) +
   geom_sf(data = point_Delft) +
-  labs(title = "")
+  labs(title = "Mobility network of Delft") +
+  
     
   )
   )
