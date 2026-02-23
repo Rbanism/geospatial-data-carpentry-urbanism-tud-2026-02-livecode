@@ -83,7 +83,7 @@ slow_Delft <- lines_Delft |>
 nrow(slow_Delft)
 unique(slow_Delft$highway)
 
-# Create new variable
+# Create new variable (data frame column) with mutate()
 cycleway_Delft <- cycleway_Delft |> 
   mutate(length = st_length(geometry))
 
