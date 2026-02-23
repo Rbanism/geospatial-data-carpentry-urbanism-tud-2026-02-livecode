@@ -39,3 +39,5 @@ string_vector <- c("Amsterdam", "Delft", "'s-Gravenhague")
 str(string_vector)
 mix_vector_2 <- c(string_vector, numeric_vector)
 str(mix_vector_2)
+y <- x
+rm(x)
