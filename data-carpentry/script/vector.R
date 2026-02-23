@@ -127,5 +127,5 @@ ggplot(data = lines_Delft) +
 ggplot() +
   geom_sf(
     data = boundary_Delft,
-    
+    fill = "lightgrey"
   )
