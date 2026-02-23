@@ -219,7 +219,10 @@ p <- gapminder |>
   coord_flip() +
   scale_fill_viridis_c()
 
+p
+
 # Save the nice plot
 ggsave(
   plot = p,
+  filename = here("fig_output", "plot_americas_2007.pdf")
 )
