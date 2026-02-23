@@ -87,6 +87,7 @@ unique(slow_Delft$highway)
 cycleway_Delft <- cycleway_Delft |> 
   mutate(length = st_length(geometry))
 
+# Calculate total length of cycleways
 cycleway_Delft |> 
   summarise(total_length = sum(length))
 
