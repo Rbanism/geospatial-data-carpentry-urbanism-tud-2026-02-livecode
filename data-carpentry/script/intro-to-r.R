@@ -167,4 +167,4 @@ gapminder_gdp <- gapminder |>
   mutate(gdpBillion = gdpPercap * pop / 10^9)
 head(gapminder_gdp)
 
-
+# visualisation
