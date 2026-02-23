@@ -135,7 +135,8 @@ ggplot() +
     aes(color = highway),
     linewidth = 1
   ) +
-  geom_sf(data)
+  geom_sf(data = point_Delft) +
+  
     
   )
   )
