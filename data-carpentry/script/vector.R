@@ -181,3 +181,4 @@ ggplot() +
   labs(title = "Map of contiguous NL municipal boundaries") +
   coord_sf(datum = st_crs(28992))
 
+# Saving a shapefile
