@@ -108,4 +108,3 @@ ggplot(data = lines_Delft_selection) +
   ) +
   coord_sf(datum = st_crs(28992))
 
-factor(lines_Delft$highway)
