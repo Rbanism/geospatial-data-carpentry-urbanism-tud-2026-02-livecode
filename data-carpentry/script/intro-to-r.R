@@ -71,3 +71,6 @@ with_na[1:3]
 gapminder <- read.csv(here("data", "gapminder-data.csv"))
 str(gapminder)
 
+nrow(gapminder)
+ncol(gapminder)
+
