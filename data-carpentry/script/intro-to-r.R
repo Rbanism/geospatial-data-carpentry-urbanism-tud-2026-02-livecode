@@ -140,3 +140,24 @@ head(avg_continent_gdpPercap)
 
 # challenge: country longest and shortest life expectancy
 # Calculate the life expectancy by country. Use min() and max(). 
+gapminder |> 
+  group_by(country) |> 
+  summarize(avg_life = mean(lifeExp)) |> 
+  filter(avg_life == min(avg_life) |
+           avg_life == max(avg_life))
+
+# Filter for a specific year
+gapminder |> 
+  filter(year == 2000) |> 
+  summarize(avg_life = mean(lifeExp)) |> 
+  filter(avg_life == min(avg_life) |
+           avg_life == max(avg_life))
+
+gapminder |> filter(year == 2000)
+summary(gapminder)
+
+gapminder |> 
+  filter(year == 1952) |> 
+  summarize(avg_life = mean(lifeExp, na.rm = TRUE)) |> 
+  filter(avg_life == min(avg_life) |
+           avg_life == max(avg_life))
