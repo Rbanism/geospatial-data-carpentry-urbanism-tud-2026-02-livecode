@@ -76,4 +76,4 @@ cycleway_Delft <- cycleway_Delft |>
   mutate(length = st_length(geometry))
 
 cycleway_Delft |> 
-  summarise()
+  summarise(total_length = sum(length))
