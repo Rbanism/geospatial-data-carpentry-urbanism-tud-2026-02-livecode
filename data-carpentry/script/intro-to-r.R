@@ -45,3 +45,6 @@ str(mix_vector_2)
 y <- x
 rm(x)
 
+# Ordering of vector types
+mix_vector_3 <- c(numeric_vector, string_vector)
+str(mix_vector_3)
