@@ -141,3 +141,5 @@ ggplot() +
 
 point_Delft$leisure <- factor(point_Delft$leisure)
 levels(point_Delft$leisure) |> length()
+
+leisure
