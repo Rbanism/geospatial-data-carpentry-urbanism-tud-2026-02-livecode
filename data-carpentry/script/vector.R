@@ -31,5 +31,6 @@ ggplot(data=boundary_Delft) +
 
 lines_Delft <- st_read(here("data", "delft-streets.shp"))
 point_Delft <- st_read(here("data", "delft-leisure.shp"))
-  
+
+lines_Delft
   
