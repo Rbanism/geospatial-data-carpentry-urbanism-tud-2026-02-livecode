@@ -16,4 +16,4 @@ st_crs(boundary_Delft) # examine new EPSG code
 st_crs(boundary_Delft)$Name
 st_crs(boundary_Delft)$epsg
 
-st_bb
+st_bbox(boundary_Delft)
