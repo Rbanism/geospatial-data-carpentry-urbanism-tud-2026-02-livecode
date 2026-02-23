@@ -137,7 +137,7 @@ ggplot(data = lines_Delft) +
   ) +
   coord_sf(datum = st_crs(28992))
 
-# Multiple plots
+# Plot multiple shapefiles
 ggplot() +
   geom_sf(
     data = boundary_Delft,
