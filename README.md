@@ -4,7 +4,7 @@
 # Hi
 ## Usage Learners 
 The repository should mimic the project structure of the R project that has been created by the instructors during the Data Carpentry. 
-- Go to the file in which the instructor is now coding: Probando
+- Go to the file in which the instructor is now coding: Probando + 1
 - [insert script with link]
 - You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
 
