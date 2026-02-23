@@ -61,3 +61,8 @@ is.na(with_na)
 
 without_na <- with_na[!is.na(with_na)]
 str(without_na)
+
+# Subset
+with_na[1]
+with_na[3]
+with_na[1:3]
