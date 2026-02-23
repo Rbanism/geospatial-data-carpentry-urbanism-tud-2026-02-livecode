@@ -24,7 +24,8 @@ boundary_Delft
 
 # Plot the boundary of Delft:
 ggplot(data=boundary_Delft) +
-  geom_sf(size=3, color="black", fill="cyan1")+
+  geom_sf(size=3, color="black", fill="cyan1") +
+  
   
   
   
