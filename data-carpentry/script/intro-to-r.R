@@ -74,3 +74,4 @@ str(gapminder)
 nrow(gapminder)
 ncol(gapminder)
 
+head(gapminder)
