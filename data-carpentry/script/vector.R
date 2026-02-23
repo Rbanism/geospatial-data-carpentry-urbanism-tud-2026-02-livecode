@@ -121,7 +121,7 @@ ggplot(data = lines_Delft_selection) +
   ) +
   coord_sf(datum = st_crs(28992))
 
-# Challenge 5 solution
+# Challenge 5 solution: cycleways highlighted on street network
 
 ggplot(data = lines_Delft) +
   geom_sf(linewidth = 0.1) +
