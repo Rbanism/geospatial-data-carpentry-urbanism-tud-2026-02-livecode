@@ -165,6 +165,8 @@ ggplot() +
     values = road_colors,
     name = "Road Type"
   ) +
-  scale_fill_manual()
+  scale_fill_manual(
+    values = leisure_colors
+  )
   labs(title = "Mobility network of Delft") +
   coord_sf(datum = st_crs(28992))
