@@ -177,4 +177,5 @@ municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
 
 ggplot() +
   geom_sf(municipal_boundary_NL) +
+  labs(title = "")
   coord_sf(datum = st_crs(28992))
