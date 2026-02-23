@@ -226,3 +226,7 @@ ggsave(
   plot = p,
   filename = here("fig_output", "plot_americas_2007.pdf")
 )
+ggsave(
+  plot = p,
+  filename = here("fig_output", "plot_americas_2007.jpeg")
+)
