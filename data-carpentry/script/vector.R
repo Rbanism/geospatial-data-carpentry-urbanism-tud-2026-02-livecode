@@ -48,7 +48,7 @@ unique(lines_Delft$highway)
 factor(lines_Delft$highway) |> levels()
 factor(lines_Delft$highway) |> head()
 
-
+point_Delft
 
 
 
