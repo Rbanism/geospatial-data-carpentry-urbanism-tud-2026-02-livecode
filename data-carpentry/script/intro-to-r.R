@@ -194,5 +194,8 @@ gapminder |>
   geom_col() +
   coord_flip()
 
-
+# Put some colour
+gapminder |> 
+  filter(year == 2007 & continent == "Americas") |> 
+  mutate(country = fct_reorder(country, gdpPercap))
 
