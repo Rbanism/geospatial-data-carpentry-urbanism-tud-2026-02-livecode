@@ -158,6 +158,7 @@ summary(gapminder)
 
 gapminder |> 
   filter(year == 1952) |> 
+  group_by(country)
   summarize(avg_life = mean(lifeExp, na.rm = TRUE)) |> 
   filter(avg_life == min(avg_life) |
            avg_life == max(avg_life))
