@@ -169,5 +169,5 @@ ggplot() +
     values = leisure_colors,
     name = "Leisure Location"
   ) +
-  labs(title = "Mobility network adn leisureof Delft") +
+  labs(title = "Mobility network adn leisure in Delft") +
   coord_sf(datum = st_crs(28992))
