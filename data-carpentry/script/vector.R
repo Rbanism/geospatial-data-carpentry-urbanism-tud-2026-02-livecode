@@ -129,5 +129,6 @@ ggplot() +
     data = boundary_Delft,
     fill = "lightgrey",
     color = "lightgrey",
-  )
+  ) +
+  geom_sf()
   )
