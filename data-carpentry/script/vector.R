@@ -27,6 +27,7 @@ ggplot(data=boundary_Delft) +
   geom_sf(size=3, color="black", fill="cyan1") +
   labs(title="Delft Administrative Boundary") +
   coord_sf(datum=st_crs(28992)) # display the axis in metres
+
   
   
   
