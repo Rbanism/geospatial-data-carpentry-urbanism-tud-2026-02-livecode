@@ -183,4 +183,5 @@ ggplot() +
 
 # Saving a shapefile
 st_write(lines_Delft_selection,
-         "data/lines-delft-selection.shp")
+         "data/lines-delft-selection.shp",
+         driver = "ESRI Shapefile")
