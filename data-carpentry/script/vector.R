@@ -156,7 +156,8 @@ ggplot() +
     aes(color = highway),
     linewidth = 1
   ) +
-  geom_sf(data = point_Delft
+  geom_sf(
+    data = point_Delft
           aes(fill = leisure) +
             shape = 21
   
