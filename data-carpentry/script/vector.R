@@ -3,8 +3,9 @@ library(tidyverse)
 library(sf)
 library(here)
 
-# Load the 
+# Read the boundary of Delft
 boundary_Delft <- st_read("data/delft-boundary.shp", quiet=TRUE)
+
 
 boundary_Delft
 
