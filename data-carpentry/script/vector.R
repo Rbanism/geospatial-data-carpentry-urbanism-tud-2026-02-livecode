@@ -136,7 +136,7 @@ ggplot() +
     linewidth = 1
   ) +
   geom_sf(data = point_Delft) +
-  labs()
+  labs(title = "")
     
   )
   )
