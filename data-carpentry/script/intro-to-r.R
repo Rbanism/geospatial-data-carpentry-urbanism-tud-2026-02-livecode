@@ -26,3 +26,4 @@ download.file(
 
 # Explore the data
 gapminder <- read.csv(here("data", "gapminder-data.csv"))
+View(gapminder)
