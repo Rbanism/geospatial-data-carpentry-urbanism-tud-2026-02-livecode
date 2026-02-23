@@ -44,4 +44,4 @@ head(lines_Delft$highway)
 unique(lines_Delft$highway)  
 
 # we can also 
-factor(lines_DelfT)
+factor(lines_Delft$highway)
