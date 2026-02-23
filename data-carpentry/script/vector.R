@@ -117,6 +117,9 @@ ggplot(data = lines_Delft) +
     color = "magenta",
     linewidth = 1
   ) +
+  labs(
+    
+  ) +
   coord_sf(datum = st_crs(28992))
 
 
