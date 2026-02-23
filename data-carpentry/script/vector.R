@@ -97,3 +97,4 @@ lines_Delft_selection <- lines_Delft |>
   mutate(highway = factor(highway, levels = road_types))
 
 road_colors <- c("blue", "green", "navy", "purple")
+
