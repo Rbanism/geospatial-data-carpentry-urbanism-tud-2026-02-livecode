@@ -133,6 +133,6 @@ ggplot() +
   geom_sf(
     data = lines_Delft_selection,
     aes(color = highway),
-    
+    size = 1
   )
   )
