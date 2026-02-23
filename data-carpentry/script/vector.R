@@ -49,7 +49,7 @@ head(lines_Delft)
 
 head(lines_Delft$highway)
 
-# 
+# Check unique highway values
 unique(lines_Delft$highway)  
 
 # we can also examine unique values by transforming the
