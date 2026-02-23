@@ -5,7 +5,6 @@ library(here)
 
 # Load the boundary of Delft
 boundary_Delft <- st_read("data/delft-boundary.shp", quiet=TRUE)
-
 boundary_Delft
 
 # Examine the properties of the input data
@@ -30,7 +29,7 @@ st_crs(boundary_Delft)$units_gdal
 
 boundary_Delft
 
-# Plot the boundary of Delft:
+# Plot the boundary of Delft
 ggplot(data=boundary_Delft) +
   geom_sf(size=3, color="black", fill="cyan1") +
   labs(title="Delft Administrative Boundary") +
