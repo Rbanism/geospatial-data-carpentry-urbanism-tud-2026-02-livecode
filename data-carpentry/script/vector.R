@@ -72,5 +72,5 @@ slow_Delft <- lines_Delft |>
 nrow(slow_Delft)
 unique(slow_Delft$highway)
 
-cycleway_Delft |> 
+cycleway_Delft <- cycleway_Delft |> 
   mutate(length = st_length(geometry))
