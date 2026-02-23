@@ -29,6 +29,7 @@ gapminder <- read.csv(here("data", "gapminder-data.csv"))
 View(gapminder)
 str(gapminder)
 
+# Creating vectors
 logical_vector <- c(TRUE, FALSE, TRUE, TRUE)
 str(logical_vector)
 numeric_vector <- c(1, 2, 3, 4, 5)
