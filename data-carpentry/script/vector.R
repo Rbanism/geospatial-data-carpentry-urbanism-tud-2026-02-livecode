@@ -43,5 +43,5 @@ head(lines_Delft$highway)
 
 unique(lines_Delft$highway)  
 
-# we can also examine unique values 
-factor(lines_Delft$highway)
+# we can also examine unique values by
+factor(lines_Delft$highway) |> levels()
