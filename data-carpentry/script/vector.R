@@ -23,4 +23,4 @@ st_crs(boundary_Delft)$units_gdal
 boundary_Delft
 
 
-ggplot(data=boundaty)
+ggplot(data=boundaty_Delft) +
