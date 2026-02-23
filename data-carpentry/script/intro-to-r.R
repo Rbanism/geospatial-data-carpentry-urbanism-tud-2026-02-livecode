@@ -9,3 +9,5 @@ library(tidyverse)
 library(here)
 
 here()
+here("data")
+
