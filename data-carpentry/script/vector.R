@@ -98,4 +98,4 @@ lines_Delft_selection <- lines_Delft |>
 
 road_colors <- c("blue", "green", "navy", "purple")
 
-ggplot(daat = )
+ggplot(daat = lines_Delft_selection)
