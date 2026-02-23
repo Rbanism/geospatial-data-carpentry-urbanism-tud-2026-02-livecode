@@ -173,4 +173,6 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 # working with data from different sources
-municipal_boundary_NL <- st_read("data/nl-boundary.shp")
+municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
+
+
