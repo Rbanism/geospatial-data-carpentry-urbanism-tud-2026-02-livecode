@@ -105,4 +105,5 @@ ggplot(data = lines_Delft_selection) +
     color = "Road Type",
     title = "Mobilitt network in Delft",
     subtitle = "Main Roads & Cycleways"
-  )
+  ) +
+  
