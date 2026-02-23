@@ -157,5 +157,6 @@ ggplot() +
     linewidth = 1
   ) +
   geom_sf(data = point_Delft) +
+  
   labs(title = "Mobility network of Delft") +
   coord_sf(datum = st_crs(28992))
