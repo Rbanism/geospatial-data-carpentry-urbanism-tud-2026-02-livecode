@@ -17,3 +17,5 @@ st_crs(boundary_Delft)$Name
 st_crs(boundary_Delft)$epsg
 
 st_bbox(boundary_Delft) # bounding box
+
+st_cr
