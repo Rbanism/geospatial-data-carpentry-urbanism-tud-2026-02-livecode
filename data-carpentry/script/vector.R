@@ -93,3 +93,4 @@ unique(lines_Delft$highway)
 road_types <- c("motorway", "primary", "secondary", "cycleway")
 
 
+
