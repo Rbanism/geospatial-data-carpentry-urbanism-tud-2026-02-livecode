@@ -115,7 +115,7 @@ ggplot(data = lines_Delft) +
   geom_sf(
     data = cycleway_Delft,
     color = "magenta",
-    linewidth = 
+    size = 1
   )
 
 
