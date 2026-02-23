@@ -23,3 +23,6 @@ download.file(
   "https://bit.ly/geospatial_data",
   here("data", "gapminder-data.csv")
 )
+
+# Explore the data
+gapminder <- read.csv(here("data", "gapminder-data.csv"))
