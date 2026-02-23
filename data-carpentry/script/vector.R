@@ -135,7 +135,7 @@ ggplot() +
     aes(color = highway),
     linewidth = 1
   ) +
-  
+  geom_sf(data)
     
   )
   )
