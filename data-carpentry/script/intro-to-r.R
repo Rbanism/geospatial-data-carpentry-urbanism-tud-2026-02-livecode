@@ -219,4 +219,7 @@ gapminder |>
   coord_flip() +
   scale_fill_viridis_c()
 
-#
+# Save the nice plot
+ggsave(
+  plot = p,
+)
