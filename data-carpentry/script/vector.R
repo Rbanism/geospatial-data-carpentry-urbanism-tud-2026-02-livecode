@@ -28,6 +28,7 @@ ggplot(data=boundary_Delft) +
   labs(title="Delft Administrative Boundary") +
   coord_sf(datum=st_crs(28992)) # display the axis in metres
 
-  
+lines_Delft <- st_read(here("data", "delft-streets.shp"))
+point_Delft <- st_read(here("data", "delft-leisure.shp"))
   
   
