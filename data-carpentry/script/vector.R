@@ -163,6 +163,7 @@ ggplot() +
   ) +
   scale_color_manual(
     values = road_colors,
+    names
   )
 
   labs(title = "Mobility network of Delft") +
