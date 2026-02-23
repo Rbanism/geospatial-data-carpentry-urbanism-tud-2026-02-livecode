@@ -207,7 +207,7 @@ gapminder |>
   coord_flip()
 
 # Different color gradient 
-gapminder |> 
+p <- gapminder |> 
   filter(year == 2007 & continent == "Americas") |> 
   mutate(country = fct_reorder(country, gdpPercap)) |> 
   ggplot(aes(
