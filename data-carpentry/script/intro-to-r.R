@@ -86,3 +86,10 @@ path_to_gapminder
 gapminder <- read.csv(path_to_gapminder)
 str(gapminder)
 
+# Selecting columns 
+year_country_gdp <- select(gapminder, year, country, gdpPercap)
+str(year_country_gdp)
+
+year_country_gdp <- gapminder |>
+  select(year, country, gdpPercap)
+str(year_country_gdp)
