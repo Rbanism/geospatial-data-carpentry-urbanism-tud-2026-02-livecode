@@ -182,3 +182,4 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 # Saving a shapefile
+st_write(leisure)
