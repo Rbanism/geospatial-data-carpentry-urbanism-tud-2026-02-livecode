@@ -3,9 +3,9 @@
 # Geospatial Data Carpentry for Urbanism - Notes 
 ## Usage Learners 
 The repository should mimic the project structure of the R project that has been created by the instructors during the Data Carpentry. 
-- Go to the file in which the instructor is now coding: 
+Go to the file in which the instructor is now coding: 
 - [script.R](https://github.com/Rbanism/geospatial-data-carpentry-urbanism-tud-2026-02-livecode/blob/main/script.R)
-- You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
+You don't see the most recent lines of code? Refresh the page and see the new commands coming in!
 
 > **Note**: 
 > - You will only see non-empty folders. You still need to create folders to follow the workshop smoothly.
