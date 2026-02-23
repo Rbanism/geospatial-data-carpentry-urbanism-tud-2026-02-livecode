@@ -153,6 +153,7 @@ ggplot() +
   labs(title = "Mobility network of Delft") +
   coord_sf(datum = st_crs(28992))
 
+# Customise point layer
 point_Delft$leisure <- factor(point_Delft$leisure)
 levels(point_Delft$leisure) |> length()
 
