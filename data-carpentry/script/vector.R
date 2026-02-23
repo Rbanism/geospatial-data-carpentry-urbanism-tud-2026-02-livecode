@@ -1,7 +1,8 @@
-
+# Attach packages
 library(tidyverse)
 library(sf)
 library(here)
+
 
 boundary_Delft <- st_read("data/delft-boundary.shp", quiet=TRUE)
 
