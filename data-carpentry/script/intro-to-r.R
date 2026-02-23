@@ -75,3 +75,6 @@ nrow(gapminder)
 ncol(gapminder)
 
 head(gapminder)
+summary(gapminder)
+
+summary(gapminder$lifeExp)
