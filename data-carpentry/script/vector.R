@@ -57,6 +57,7 @@ unique(lines_Delft$highway)
 factor(lines_Delft$highway) |> levels()
 factor(lines_Delft$highway) |> head()
 
+# Examine leisure data
 point_Delft
 
 head(point_Delft, 10)
