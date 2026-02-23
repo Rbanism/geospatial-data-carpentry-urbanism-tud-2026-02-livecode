@@ -137,7 +137,7 @@ ggplot() +
   ) +
   geom_sf(data = point_Delft) +
   labs(title = "Mobility network of Delft") +
-  
+  coord_sf(datum )
     
   )
   )
