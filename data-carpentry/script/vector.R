@@ -106,4 +106,4 @@ ggplot(data = lines_Delft_selection) +
     title = "Mobilitt network in Delft",
     subtitle = "Main Roads & Cycleways"
   ) +
-  
+  coord_sf(datum = st_crs(28992))
