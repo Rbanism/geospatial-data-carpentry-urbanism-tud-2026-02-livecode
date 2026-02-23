@@ -90,5 +90,5 @@ ggplot(data = cycleway_Delft) +
 # cusotmize plots
 unique(lines_Delft$highway)
 
-road_types 
+road_types <- c()
 
