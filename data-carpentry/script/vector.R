@@ -50,6 +50,26 @@ factor(lines_Delft$highway) |> head()
 
 point_Delft
 
-head(point_Delft)
+head(point_Delft, 10)
 
+na.omit(point_Delft$leisure) |> head(10)
 
+factor(point_Delft$leisure) |> 
+  levels() |> 
+  head(3)
+
+# subsetting the data
+cycleway_Delft <- lines_Delft |> 
+  filter(highway == "cycleway")
+
+nrow(cycleway_Delft)
+nrow(lines_Delft)
+
+unique(lines_Delft$highway)
+
+slow_Delft <- lines_Delft |> 
+  filter(highway %in% c("cycleway", "footway"))
+nrow(slow_Delft)
+unique(slow_Delft$highway)
+
+cycleway_Delft <-
