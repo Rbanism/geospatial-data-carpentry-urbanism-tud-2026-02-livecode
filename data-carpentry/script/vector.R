@@ -17,7 +17,7 @@ st_geometry_type(boundary_Delft)
 st_crs(boundary_Delft)
 st_bbox(boundary_Delft)
 
-## 
+## Porject 
 boundary_Delft <- st_transform(boundary_Delft, crs=28992) # transforms and overwrites object
 
 st_crs(boundary_Delft) # examine new EPSG code
