@@ -13,7 +13,7 @@ boundary_Delft
 ## Geometry type, in this case POLYGON
 st_geometry_type(boundary_Delft)
 
-## 
+## CRS and bounding box
 st_crs(boundary_Delft)
 st_bbox(boundary_Delft)
 
