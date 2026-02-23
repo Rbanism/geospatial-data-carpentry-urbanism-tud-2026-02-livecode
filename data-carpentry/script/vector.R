@@ -118,7 +118,8 @@ ggplot(data = lines_Delft) +
     linewidth = 1
   ) +
   labs(
-    title = ""
+    title = "Mobility network in Delft",
+    
   ) +
   coord_sf(datum = st_crs(28992))
 
