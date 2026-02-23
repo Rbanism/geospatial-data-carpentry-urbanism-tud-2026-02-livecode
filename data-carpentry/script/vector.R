@@ -116,6 +116,7 @@ ggplot(data = lines_Delft) +
     data = cycleway_Delft,
     color = "magenta",
     linewidth = 1
-  )
+  ) +
+  
 
 
