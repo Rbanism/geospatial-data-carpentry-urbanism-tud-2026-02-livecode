@@ -175,4 +175,4 @@ ggplot() +
 # working with data from different sources
 municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
 
-
+ggplot() +
