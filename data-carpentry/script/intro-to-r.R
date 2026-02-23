@@ -11,3 +11,9 @@ library(here)
 here()
 here("data")
 
+x <- 5
+x
+
+y <- x + 2
+y
+sqrt(y)
