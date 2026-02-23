@@ -111,6 +111,7 @@ ggplot(data = lines_Delft_selection) +
 # Challenge 5 solution
 
 ggplot(lines_Delft) +
-  geom_sf(size) +
+  geom_sf(size = 0.01) +
+  
 
 
