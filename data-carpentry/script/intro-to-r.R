@@ -132,7 +132,11 @@ gapminder |>
   group_by(continent) |> 
   summarize(avg_gdpPercap = mean(gdpPercap))
 
+# Create an object
 avg_continent_gdpPercap <- gapminder |> 
   group_by(continent) |> 
   summarize(avg_gdpPercap = mean(gdpPercap))
 head(avg_continent_gdpPercap)
+
+# challenge: country longest and shortest life expectancy
+# Calculate the life expectancy by country. Use min() and max(). 
