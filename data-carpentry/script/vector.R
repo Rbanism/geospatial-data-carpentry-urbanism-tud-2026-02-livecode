@@ -176,3 +176,5 @@ ggplot() +
 municipal_boundary_NL <- st_read("data/nl-gemeenten.shp")
 
 ggplot() +
+  geom_sf(municipal_boundary_NL) +
+  coor
