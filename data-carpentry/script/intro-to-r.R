@@ -186,11 +186,13 @@ gapminder |>
   geom_col() +
   coord_flip()
 
-
+# Ordering countries
 gapminder |> 
   filter(year == 2007 & continent == "Americas") |> 
   mutate(country = fct_reorder(country, gdpPercap)) |> 
   ggplot(aes(x = country, y = gdpPercap)) +
   geom_col() +
   coord_flip()
+
+
 
