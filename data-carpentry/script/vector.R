@@ -21,3 +21,6 @@ st_bbox(boundary_Delft) # bounding box
 st_crs(boundary_Delft)$units_gdal
 
 boundary_Delft
+
+
+ggplot()
