@@ -85,6 +85,6 @@ ggplot(data = cycleway_Delft) +
     title = "Slow mobility newtork in Delft",
     subtitle = "Cycleways"
   ) +
-  coord_sf()
+  coord_sf(datum = st_crs(28992))
 
 
