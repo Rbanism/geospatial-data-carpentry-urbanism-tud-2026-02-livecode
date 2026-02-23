@@ -127,3 +127,11 @@ year_country_gdp_euroasia <- gapminder |>
   filter(continent == "Europe" | continent == "Asia") |> 
   select(year, country, gdpPercap)
 head(year_country_gdp_euroasia)
+
+gapminder |> 
+  group_by(continent) |> 
+  summarize(avg_gdpPercap = mean(gdpPercap))
+avg_continent_gdpPercap = gapminder |> 
+  group_by(continent) |> 
+  summarize(avg_gdpPercap = mean(gdpPercap))
+head(avg_continent_gdpPercap)
