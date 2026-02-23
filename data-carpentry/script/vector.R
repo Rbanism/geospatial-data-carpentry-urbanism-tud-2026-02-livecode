@@ -10,9 +10,10 @@ boundary_Delft
 
 # Examine the properties of the input data
 
-## Geometry 
+## Geometry type, in this case POLYGON
 st_geometry_type(boundary_Delft)
 
+## 
 st_crs(boundary_Delft)
 st_bbox(boundary_Delft)
 
