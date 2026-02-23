@@ -102,5 +102,6 @@ ggplot(data = lines_Delft_selection) +
   geom_sf(aes(color = highway)) +
   scale_color_manual(values = road_colors) +
   labs(
-    title = ""
+    title = "Mobilitt network in Delft",
+    subtitle = "Main "
   )
