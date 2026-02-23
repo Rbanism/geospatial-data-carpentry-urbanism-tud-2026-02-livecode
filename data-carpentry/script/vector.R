@@ -50,5 +50,6 @@ factor(lines_Delft$highway) |> head()
 
 point_Delft
 
+head(point_Delft)
 
 
