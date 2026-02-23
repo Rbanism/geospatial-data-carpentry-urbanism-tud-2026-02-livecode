@@ -94,3 +94,13 @@ year_country_gdp <- gapminder |>
   select(year, country, gdpPercap)
 str(year_country_gdp)
 
+# Filter rows
+year_country_gdp_euro <- gapminder |> 
+  filter(continent == "Europe") |> 
+  head()
+str(year_country_gdp_euro)
+# Without head (selecting the first 6 observations)
+year_country_gdp_euro <- gapminder |> 
+  filter(continent == "Europe")
+head(year_country_gdp_euro)
+str(year_country_gdp_euro)
