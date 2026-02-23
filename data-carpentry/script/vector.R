@@ -152,7 +152,7 @@ ggplot() +
     color = "lightgrey",
   ) +
   geom_sf(
-    data = lines_Delft_selection,
+    data = point_Delft_selection,
     aes(color = highway),
     linewidth = 1
   ) +
