@@ -48,3 +48,13 @@ rm(x)
 # Ordering of vector types
 mix_vector_3 <- c(numeric_vector, string_vector)
 str(mix_vector_3)
+
+# Missing values
+with_na <- c(1, 2, 1, 1, NA, 3, NA)
+str(with_na)
+
+mean(with_na)
+mean(with_na, na.rm = TRUE)
+
+is.na(with_na)
+without_na <- with_na[!is.na()]
