@@ -157,7 +157,7 @@ ggplot() +
     linewidth = 1
   ) +
   geom_sf(
-    data = point_Delft
+    data = point_Delft,
     aes(fill = leisure) +
     shape = 21
   
