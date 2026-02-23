@@ -43,3 +43,4 @@ head(lines_Delft$highway)
 
 unique(lines_Delft$highway)  
 
+# we can also 
