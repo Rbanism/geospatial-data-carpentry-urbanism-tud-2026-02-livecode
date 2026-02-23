@@ -79,5 +79,4 @@ cycleway_Delft |>
   summarise(total_length = sum(length))
 
 # plot the cycleways
-cycleway_Delft |> 
-  ggplot()
+ggplot(cycleway_Delft)
