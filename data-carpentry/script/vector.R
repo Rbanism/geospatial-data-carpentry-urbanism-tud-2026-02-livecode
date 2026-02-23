@@ -145,3 +145,17 @@ levels(point_Delft$leisure) |> length()
 leisure_colors <- rainbow(15)
 leisure_colors
 
+ggplot() +
+  geom_sf(
+    data = boundary_Delft,
+    fill = "lightgrey",
+    color = "lightgrey",
+  ) +
+  geom_sf(
+    data = lines_Delft_selection,
+    aes(color = highway),
+    linewidth = 1
+  ) +
+  geom_sf(data = point_Delft) +
+  labs(title = "Mobility network of Delft") +
+  coord_sf(datum = st_crs(28992))
