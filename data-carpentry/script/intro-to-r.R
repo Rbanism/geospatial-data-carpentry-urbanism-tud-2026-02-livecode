@@ -161,3 +161,8 @@ gapminder |>
   summarize(avg_life = mean(lifeExp, na.rm = TRUE)) |> 
   filter(avg_life == min(avg_life) |
            avg_life == max(avg_life))
+
+# Mutate
+gapminder_gdp <- gapminder |> 
+  mutate(gdpBillion = gdpPercap * pop / 10^9)
+head(gapminder_gdp)
