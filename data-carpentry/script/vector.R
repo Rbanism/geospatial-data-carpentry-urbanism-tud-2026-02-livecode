@@ -77,7 +77,7 @@ nrow(lines_Delft)
 
 unique(lines_Delft$highway)
 
-# We can also subset 
+# We can also subset multiple values with 
 slow_Delft <- lines_Delft |> 
   filter(highway %in% c("cycleway", "footway"))
 nrow(slow_Delft)
