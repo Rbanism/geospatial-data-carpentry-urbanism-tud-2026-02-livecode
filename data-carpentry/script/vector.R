@@ -112,6 +112,6 @@ ggplot(data = lines_Delft_selection) +
 
 ggplot(lines_Delft) +
   geom_sf(size = 0.01) +
-  
+  geom_sf()
 
 
