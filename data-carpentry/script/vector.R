@@ -45,3 +45,8 @@ unique(lines_Delft$highway)
 
 # we can also examine unique values by
 factor(lines_Delft$highway) |> levels()
+
+
+
+
+
