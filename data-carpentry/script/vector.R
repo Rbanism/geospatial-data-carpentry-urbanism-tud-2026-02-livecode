@@ -161,7 +161,9 @@ ggplot() +
     aes(fill = leisure),
     shape = 21
   ) +
-  scale_color_manual
+  scale_color_manual(
+    values 
+  )
 
   labs(title = "Mobility network of Delft") +
   coord_sf(datum = st_crs(28992))
