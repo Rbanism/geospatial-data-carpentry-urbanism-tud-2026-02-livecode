@@ -171,3 +171,5 @@ ggplot() +
   ) +
   labs(title = "Mobility network and leisure in Delft") +
   coord_sf(datum = st_crs(28992))
+
+# 
