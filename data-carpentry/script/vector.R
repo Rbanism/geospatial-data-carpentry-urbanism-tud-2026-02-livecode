@@ -35,6 +35,6 @@ point_Delft <- st_read(here("data", "delft-leisure.shp"))
 lines_Delft
 ncol(lines_Delft)
 
-
+names(lines_Delft)
 
   
