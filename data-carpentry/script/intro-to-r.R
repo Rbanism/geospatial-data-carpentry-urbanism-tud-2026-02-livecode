@@ -17,3 +17,9 @@ x
 y <- x + 2
 y
 sqrt(y)
+
+# download data
+download.file(
+  "https://bit.ly/geospatial_data",
+  here("data", "gapminder-data.csv")
+)
