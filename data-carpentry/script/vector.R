@@ -131,6 +131,7 @@ ggplot() +
     color = "lightgrey",
   ) +
   geom_sf(
-    data = lines_Delft
+    data = lines_Delft_selection,
+    
   )
   )
