@@ -84,6 +84,7 @@ ggplot(data = cycleway_Delft) +
   labs(
     title = "Slow mobility newtork in Delft",
     subtitle = "Cycleways"
-  )
+  ) +
+  
 
 
