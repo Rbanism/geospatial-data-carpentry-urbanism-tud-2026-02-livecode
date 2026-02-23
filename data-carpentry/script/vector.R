@@ -8,6 +8,9 @@ boundary_Delft <- st_read("data/delft-boundary.shp", quiet=TRUE)
 
 boundary_Delft
 
+# Examine the properties of the input data
+
+## Geometry 
 st_geometry_type(boundary_Delft)
 
 st_crs(boundary_Delft)
