@@ -110,3 +110,19 @@ year_country_gdp_noteuro <- gapminder |>
   filter(continent != "Europe") |> 
   dplyr::select(year, country, gdpPercap) #dplyr:: for using the function select from dplyr
 head(year_country_gdp_noteuro)
+
+year_country_gdp_noteuro2000 <- gapminder |> 
+  filter(continent != "Europe" & year >= 2000) |> 
+  select(year, country, gdpPercap)
+head(year_country_gdp_noteuro2000)
+summary(year_country_gdp_noteuro2000)
+
+year_country_gdp_noteuroasia <- gapminder |> 
+  filter(continent != "Europe" & continent != "Asia") |> 
+  select(year, country, gdpPercap)
+summary(year_country_gdp_noteuroasia)
+head(year_country_gdp_noteuroasia)
+
+year_country_gdp_euroasia <- gapminder |> 
+  filter(continent == "Europe" | continent == "Asia") |> 
+  select(year, country, gdpPercap)
