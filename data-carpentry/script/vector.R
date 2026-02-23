@@ -68,7 +68,7 @@ factor(point_Delft$leisure) |>
   levels() |> 
   head(3)
 
-# Subsetting the data
+# Subsetting the data: we only keep cycleways
 cycleway_Delft <- lines_Delft |> 
   filter(highway == "cycleway")
 
