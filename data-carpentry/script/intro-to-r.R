@@ -71,6 +71,7 @@ with_na[1:3]
 gapminder <- read.csv(here("data", "gapminder-data.csv"))
 str(gapminder)
 
+
 nrow(gapminder)
 ncol(gapminder)
 
@@ -78,3 +79,10 @@ head(gapminder)
 summary(gapminder)
 
 summary(gapminder$lifeExp)
+
+# Create object with path to gapminder
+path_to_gapminder <- here("data", "gapminder-data.csv")
+path_to_gapminder
+gapminder <- read.csv(path_to_gapminder)
+str(gapminder)
+
