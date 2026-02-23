@@ -81,3 +81,6 @@ cycleway_Delft |>
 # plot the cycleways
 ggplot(data = cycleway_Delft) +
   geom_sf() +
+  labs(
+    
+  )
