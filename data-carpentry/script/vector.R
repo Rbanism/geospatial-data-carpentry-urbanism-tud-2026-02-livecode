@@ -110,6 +110,6 @@ ggplot(data = lines_Delft_selection) +
 
 # Challenge 5 solution
 
-ggplot()
+ggplot(lines_Delft)
 
 
