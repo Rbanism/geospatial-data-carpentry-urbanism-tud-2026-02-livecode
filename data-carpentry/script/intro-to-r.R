@@ -27,3 +27,7 @@ download.file(
 # Explore the data
 gapminder <- read.csv(here("data", "gapminder-data.csv"))
 View(gapminder)
+str(gapminder)
+
+logical_vector <- c(TRUE, FALSE, TRUE, TRUE)
+str(logical_vector)
