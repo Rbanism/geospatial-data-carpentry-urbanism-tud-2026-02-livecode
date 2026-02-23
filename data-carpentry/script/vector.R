@@ -119,7 +119,7 @@ ggplot(data = lines_Delft) +
   ) +
   labs(
     title = "Mobility network in Delft",
-    
+    subtitle = "Roads dedicated to bikes"
   ) +
   coord_sf(datum = st_crs(28992))
 
