@@ -22,5 +22,7 @@ st_crs(boundary_Delft)$units_gdal
 
 boundary_Delft
 
-
+# Plot the o
 ggplot(data=boundaty_Delft) +
+  
+  
