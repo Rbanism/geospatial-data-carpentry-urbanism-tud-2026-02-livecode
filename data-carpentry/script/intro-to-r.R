@@ -31,3 +31,5 @@ str(gapminder)
 
 logical_vector <- c(TRUE, FALSE, TRUE, TRUE)
 str(logical_vector)
+numeric_vector <- c(1, 2, 3, 4, 5)
+str(numeric_vector)
