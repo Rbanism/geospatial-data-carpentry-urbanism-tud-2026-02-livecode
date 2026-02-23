@@ -126,3 +126,4 @@ head(year_country_gdp_noteuroasia)
 year_country_gdp_euroasia <- gapminder |> 
   filter(continent == "Europe" | continent == "Asia") |> 
   select(year, country, gdpPercap)
+head(year_country_gdp_euroasia)
