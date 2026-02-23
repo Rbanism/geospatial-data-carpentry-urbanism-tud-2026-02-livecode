@@ -91,7 +91,7 @@ cycleway_Delft <- cycleway_Delft |>
 cycleway_Delft |> 
   summarise(total_length = sum(length))
 
-# plot the cycleways
+# Plot the cycleways
 ggplot(data = cycleway_Delft) +
   geom_sf() +
   labs(
@@ -100,7 +100,7 @@ ggplot(data = cycleway_Delft) +
   ) +
   coord_sf(datum = st_crs(28992))
 
-# cusotmize plots
+# Customize plots
 unique(lines_Delft$highway)
 
 road_types <- c("motorway", "primary", "secondary", "cycleway")
