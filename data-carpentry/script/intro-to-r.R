@@ -66,3 +66,5 @@ str(without_na)
 with_na[1]
 with_na[3]
 with_na[1:3]
+
+# Back to our data
