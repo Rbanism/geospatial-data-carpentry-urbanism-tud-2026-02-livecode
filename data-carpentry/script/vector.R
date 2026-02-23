@@ -140,4 +140,4 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 point_Delft$leisure <- factor(point_Delft$leisure)
-levels(point_Delft$leisure) |
+levels(point_Delft$leisure) |> length()
