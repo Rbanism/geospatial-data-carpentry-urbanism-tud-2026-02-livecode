@@ -130,5 +130,7 @@ ggplot() +
     fill = "lightgrey",
     color = "lightgrey",
   ) +
-  geom_sf()
+  geom_sf(
+    data = lines_Delft
+  )
   )
