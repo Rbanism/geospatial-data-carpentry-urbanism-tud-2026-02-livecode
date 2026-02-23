@@ -5,3 +5,7 @@
 install.packages("here")
 
 # Loading packages
+library(tidyverse)
+library(here)
+
+here()
