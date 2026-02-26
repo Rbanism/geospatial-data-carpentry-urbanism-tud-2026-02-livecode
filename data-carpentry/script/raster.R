@@ -23,6 +23,6 @@ DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 head(DSM_TUD_df)
 str(DSM_TUD_df)
 ggplot(data = DSM_TUD_df) +
-  geom_raster()
+  geom_raster(aes())
   
   
