@@ -6,3 +6,6 @@ library(terra)
 
 # Examine the data before loading it
 describe("data/tud-dtm-5m.tif")
+
+# Load the data
+rast()
