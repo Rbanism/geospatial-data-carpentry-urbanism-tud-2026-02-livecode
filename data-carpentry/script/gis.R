@@ -5,4 +5,4 @@ library(sf)
 #install.packages("osmdata")
 library(osmdata)
 
-getbb("")
+getbb("Brielle")
