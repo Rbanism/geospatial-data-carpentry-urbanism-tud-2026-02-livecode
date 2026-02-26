@@ -197,4 +197,6 @@ ggplot() +
     aeas(x = x,
          y = y,
          alpha = `tudlib-rgb_1`)
+  ) +
+  coord_equal()
   )
