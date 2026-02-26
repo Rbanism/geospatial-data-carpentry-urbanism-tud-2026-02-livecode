@@ -151,5 +151,6 @@ old <- 1800
 old_buildings <- buildings |>
   filter(start_date <= old)
 
-# Number ofbuildings
+# Number of buildings
 nrow(buildings)
+
