@@ -14,5 +14,5 @@ bb
 
 # extracting features with opq()
 
-opq()
+opq(bbox = bb) |>
 
