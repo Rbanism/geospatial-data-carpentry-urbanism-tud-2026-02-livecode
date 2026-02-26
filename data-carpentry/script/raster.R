@@ -132,4 +132,4 @@ crs(DTM_TUD_hill)
 
 DTM_TUD_hill_28992 <- project(DTM_TUD_hill, crs(DTM_TUD))
 crs(DTM_TUD_hill_28992)
-DTM_
+DTM_TUD_hill_28992_df <- as.data.frame(DTM_TUD_hill_28992, x)
