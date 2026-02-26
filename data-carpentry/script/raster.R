@@ -174,7 +174,7 @@ ggplot() +
   geom_raster(data = CHM_TUD_df, aes(x=x, 
                                   y=y,
                                   fill=`tud-dsm-5m`))+
-  scale_fill_gradientn(colors = terrain.colors(10))
+  scale_fill_gradientn(colors = terrain.colors(10))+
   coord_equal()+
     theme_void()
   
