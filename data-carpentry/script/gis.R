@@ -170,3 +170,4 @@ st_crs(old_buildings)
 # Extract gdal units
 st_crs(old_buildings)$units
 
+st_buffer
