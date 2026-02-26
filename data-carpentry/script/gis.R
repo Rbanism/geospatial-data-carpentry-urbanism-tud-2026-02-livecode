@@ -197,4 +197,5 @@ centroids_old <- st_centroid(old_buildings) |>
 
 ggplot() +
   geom_sf(data = single_old_buffer, aes(fill = ID)) +
-  geom_sf(data = )
+  geom_sf(data = centroids_old) +
+  coord_sf(datum = st_crs(28992))
