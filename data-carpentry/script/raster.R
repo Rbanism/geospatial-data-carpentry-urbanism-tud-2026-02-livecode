@@ -38,5 +38,5 @@ nlyr(DSM_TUD)
 
 # Plot raster data
 
-DSM_DSM_TUD_df |>
+DSM_TUD_df <- DSM_TUD_df |>
   mutate(fct_elevation = cut(`tud-dsm-5m`, breaks = 3))
