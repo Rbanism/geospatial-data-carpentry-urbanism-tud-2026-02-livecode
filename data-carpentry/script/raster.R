@@ -161,4 +161,6 @@ ggplot() +
   coord_equal()
 
 
+# Raster calculations
+
 
