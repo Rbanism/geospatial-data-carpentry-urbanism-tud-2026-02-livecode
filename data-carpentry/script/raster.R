@@ -179,4 +179,4 @@ ggplot() +
     theme_void()
 
 # export raster
-writeRaster(CHM_TUD, "fig/")
+writeRaster(CHM_TUD, "fig/CHM_TUD.tiff")
