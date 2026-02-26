@@ -101,12 +101,12 @@ DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
 # Create data frames for plotting
 DTM_TUD_df <- as.data.frame(DTM_TUD, xy = TRUE)
-DTM_TUD_hill_df <- as.data.frame(DTM_TUD_hill, x)
+DTM_TUD_hill_df <- as.data.frame(DTM_TUD_hill, xy = TRUE)
 
 # Plotting the layers together
 ggplot() +
   geom_raster(
-    data = DTM_TUD,
+    data = DTM_TUD_df,
     aes(
       x = x,
       y = y,
@@ -114,7 +114,8 @@ ggplot() +
     )
   ) +
   geom_raster(
-    data = DTM_TUD_hill,
+    data = DTM_TUD_hill_df,
+    
   )
 
 
