@@ -167,3 +167,4 @@ distance <- 100 # in meters
 # check projection is in meters
 st_crs(old_buildings)
 
+
