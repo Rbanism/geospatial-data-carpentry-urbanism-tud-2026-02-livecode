@@ -121,6 +121,7 @@ ggplot() +
       fill = `tud-dtm-5m-hill`
     )
   ) +
-  scale_fill_gradientn(name = )
+  scale_fill_gradientn(name = "Elevation",
+                       colors = )
 
 
