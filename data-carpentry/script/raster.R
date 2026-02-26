@@ -170,4 +170,5 @@ CHM_TUD <- DSM_TUD-DTM_TUD
 
 CHM_TUD_df <- as.data.frame(CHM_TUD, xy = TRUE)
 
-ggplot()
+ggplot() +
+  geom_raster(data = CHM_TUD)
