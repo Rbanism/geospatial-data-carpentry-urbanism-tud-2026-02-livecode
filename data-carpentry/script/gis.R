@@ -45,6 +45,7 @@ buildings$start_date <- as.numeric(buildings$start_date)
 buildings$build_date <- if_else(
   buildings$start_date < 1900,# the condition
   1900,  #if yes
-  as.numeric(buildings$start_date)
+  buildings$start_date
   )  #if no
+
 
