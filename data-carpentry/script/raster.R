@@ -96,7 +96,7 @@ ggplot() +
   labs(title = "Elevation Classes of the Digital Surface Model (DSM)")
 
 # Reproject Raster Data
-
+DTM_TUD <- rast()
 
 
 
