@@ -28,4 +28,4 @@ ggplot(data = DSM_TUD_df) +
   coord_equal()
 
 crs(DSM_TUD, proj = TRUE)
-  
+minmax(DSM_TUD)  
