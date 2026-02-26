@@ -168,5 +168,5 @@ distance <- 100 # in meters
 st_crs(old_buildings)
 
 # Extract gdal units
-st_crs(old_buildings)$gdal
+st_crs(old_buildings)$units
 
