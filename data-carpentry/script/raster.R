@@ -114,8 +114,7 @@ ggplot() +
     )
   ) +
   geom_raster(
-    # data = DTM_TUD_hill_df,
-    data = DTM_TUD_hill_28992_df,
+    data = DTM_TUD_hill_df,
     aes(
       x = x,
       y = y,
@@ -160,3 +159,6 @@ ggplot() +
   scale_fill_gradientn(name = "Elevation",
                        colors = terrain.colors(10)) +
   coord_equal()
+
+
+
