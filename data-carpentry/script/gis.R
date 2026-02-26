@@ -55,5 +55,5 @@ ggplot(data = buildings) +
  # geom_sf(aes(colour = build_date))+ #group3&4
   scale_fill_viridis_c(option = "viridis") +
 # scale_colour_viridis_c(option = "viridis) +
-
+coord_sf(datum = st_crs(28992))
 
