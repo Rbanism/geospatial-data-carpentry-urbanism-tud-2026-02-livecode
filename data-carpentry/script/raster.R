@@ -69,3 +69,5 @@ terrain.colors(3)
 # colors: "#00A600" "#ECB176" "#F2F2F2"
 
 ggplot() +
+  geom_raster(data = DSM_TUD_df,
+              
