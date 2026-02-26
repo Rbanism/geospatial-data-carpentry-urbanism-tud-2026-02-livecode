@@ -57,5 +57,8 @@ ggplot(data = buildings) +
 coord_sf(datum = st_crs(28992))
 
 
+# creating a function
+
+extract
 
 
