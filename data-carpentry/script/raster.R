@@ -126,3 +126,5 @@ ggplot() +
   coord_equal()
 
 
+crs(DTM_TUD)
+crs(DTM_TUD_hill)
