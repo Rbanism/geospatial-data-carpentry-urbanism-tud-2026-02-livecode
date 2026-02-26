@@ -8,4 +8,4 @@ library(terra)
 describe("data/tud-dsm-5m.tif")
 
 # Load the data
-<- rast("data/tud-dsm-5m.tif")
+DSM_TUD <- rast("data/tud-dsm-5m.tif")
