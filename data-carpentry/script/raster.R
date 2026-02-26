@@ -177,4 +177,6 @@ ggplot() +
   scale_fill_gradientn(colors = terrain.colors(10))+
   coord_equal()+
     theme_void()
-  
+
+# export raster
+write
