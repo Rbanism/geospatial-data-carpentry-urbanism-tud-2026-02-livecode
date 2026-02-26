@@ -30,4 +30,4 @@ ggplot(data = DSM_TUD_df) +
 # Examine the loaded raster
 crs(DSM_TUD, proj = TRUE)
 minmax(DSM_TUD)
-
+setMinMax(DSM_TUD)
