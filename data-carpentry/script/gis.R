@@ -155,3 +155,4 @@ old_buildings <- buildings |>
 nrow(buildings)
 # Number of old buildings
 nrow(old_buildings)
+
