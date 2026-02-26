@@ -190,6 +190,7 @@ single_old_buffer <- single_old_buffer |>
 
 # Centroids
 # Disable calculation of centroids in angles and set in meters
-sf
+sf_use_s2(FALSE)
+
 centroids_old <- st_centroid(old_buildings) |>
   st_transform(crs = 28992)
