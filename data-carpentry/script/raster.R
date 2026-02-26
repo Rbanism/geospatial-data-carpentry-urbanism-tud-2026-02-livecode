@@ -74,7 +74,7 @@ ggplot() +
                   y = y,
                   fill = fct_elevation_cb)) +
   scale_fill_manual(values = terrain.colors(3)) +
-  labs = (fill = "E") +
+  labs(fill = "Elevationnnnnnnnn") +
   # theme(axis.title = element_blank()) +
   theme_void() +
   coord_equal() 
