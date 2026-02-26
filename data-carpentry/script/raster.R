@@ -38,4 +38,5 @@ nlyr(DSM_TUD)
 
 # Plot raster data
 
-DSM_TUD
+DSM_TUD_df |>
+  
