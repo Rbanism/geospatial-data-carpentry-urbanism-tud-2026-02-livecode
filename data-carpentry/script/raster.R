@@ -97,7 +97,7 @@ ggplot() +
 
 # Reproject Raster Data
 DTM_TUD <- rast("data/tud-dtm-5m.tif")
-DTM_TUD_hill <- rast()
+DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
 
 
