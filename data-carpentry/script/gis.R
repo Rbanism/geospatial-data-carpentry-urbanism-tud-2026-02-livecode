@@ -145,9 +145,11 @@ buildings <- x$osm_polygons |>
 
 buildings$start_date <- as.numeric(buildings$start_date)
 
+# Select old buildings
 old <- 1800
 
 old_buildings <- buildings |>
   filter(start_date <= old)
 
+# Number ofbuildings
 nrow(buildings)
