@@ -50,7 +50,7 @@ head(lines_Delft)
 head(lines_Delft$highway)
 
 # Check unique highway values
-unique(lines_Delft$highway)  
+unique(lines_Delft$highway)
 
 # we can also examine unique values by transforming the
 # variable into a factor
@@ -64,12 +64,12 @@ head(point_Delft, 10)
 
 na.omit(point_Delft$leisure) |> head(10)
 
-factor(point_Delft$leisure) |> 
-  levels() |> 
+factor(point_Delft$leisure) |>
+  levels() |>
   head(3)
 
 # Subsetting the data: we only keep cycleways
-cycleway_Delft <- lines_Delft |> 
+cycleway_Delft <- lines_Delft |>
   filter(highway == "cycleway")
 
 nrow(cycleway_Delft)
@@ -78,17 +78,17 @@ nrow(lines_Delft)
 unique(lines_Delft$highway)
 
 # We can also subset multiple values using the %in% operator
-slow_Delft <- lines_Delft |> 
+slow_Delft <- lines_Delft |>
   filter(highway %in% c("cycleway", "footway"))
 nrow(slow_Delft)
 unique(slow_Delft$highway)
 
 # Create new variable (data frame column) with mutate()
-cycleway_Delft <- cycleway_Delft |> 
+cycleway_Delft <- cycleway_Delft |>
   mutate(length = st_length(geometry))
 
 # Calculate total length of cycleways
-cycleway_Delft |> 
+cycleway_Delft |>
   summarise(total_length = sum(length))
 
 # Plot the cycleways
@@ -105,13 +105,13 @@ unique(lines_Delft$highway)
 
 road_types <- c("motorway", "primary", "secondary", "cycleway")
 
-lines_Delft_selection <- lines_Delft |> 
+lines_Delft_selection <- lines_Delft |>
   filter(highway %in% road_types) |>
   mutate(highway = factor(highway, levels = road_types))
 
 road_colors <- c("blue", "green", "navy", "purple")
 
-ggplot(data = lines_Delft_selection) + 
+ggplot(data = lines_Delft_selection) +
   geom_sf(aes(color = highway)) +
   scale_color_manual(values = road_colors) +
   labs(
