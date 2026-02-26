@@ -14,6 +14,6 @@ bb
 
 # extracting features with opq()
 
-opq(bbox = bb) |>
+x <- opq(bbox = bb) |>
   add_osm_feature(key = "building")
 
