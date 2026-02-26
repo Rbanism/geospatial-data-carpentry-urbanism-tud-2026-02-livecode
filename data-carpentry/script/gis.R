@@ -51,7 +51,7 @@ buildings$build_date <- if_else(
 
 # map
 ggplot(data = buildings) +
-  geom_sf(aes(fill = build_date))+
-  geom_sf(aes(colour = build_date))
+  geom_sf(aes(fill = build_date))+ #group1&2
+  geom_sf(aes(colour = build_date))+ #group3&4
 
 
