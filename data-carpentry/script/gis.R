@@ -38,5 +38,5 @@ summary(x$osm_polygons)
 buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
-buildings$build_date <- if_else(start_)
+buildings$build_date <- if_else(start_date < 1900, 1900)
 
