@@ -50,6 +50,7 @@ buildings$build_date <- if_else(
 
 
 # map
-ggplot(data = buildings)
+ggplot(data = buildings) +
+  geom_sf()
 
 
