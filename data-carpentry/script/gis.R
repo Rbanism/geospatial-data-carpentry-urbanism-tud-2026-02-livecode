@@ -123,7 +123,8 @@ leaflet(buildings2) |>
 
 ### R as a GIS
 
-
+library(sf)
+library()
 
 
 
