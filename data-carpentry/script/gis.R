@@ -101,7 +101,7 @@ leaflet(buildings2) |>
   addPolygons(
   color = "#444444",
   weight =0.1,
-  smoothFactor
+  smoothFactor = 0.5,
   fillColor = ~ colorQuantile("YlGnBu", -build_date)(-build_date),
   )
 
