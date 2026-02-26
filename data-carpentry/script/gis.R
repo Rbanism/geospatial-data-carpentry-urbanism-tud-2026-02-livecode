@@ -85,4 +85,4 @@ ggplot(data = buildings) +
 
 }
 
-extract
+extract_and_map_buildings(cityname = )
