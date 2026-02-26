@@ -39,10 +39,12 @@ buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
 
+
+buildings$start_date <- as.numeric(buildings$start_date)
+
 buildings$build_date <- if_else(
-  as.numeric(buildings$start_date) < 1900,# the condition
+  buildings$start_date < 1900,# the condition
   1900,  #if yes
   as.numeric(buildings$start_date)
   )  #if no
 
-buildings$start_date <- as.numeric(buildings$start_date)
