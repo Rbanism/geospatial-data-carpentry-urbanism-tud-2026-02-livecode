@@ -168,5 +168,5 @@ DSM_TUD
 
 CHM_TUD <- DSM_TUD-DTM_TUD
 
-CHM
+CHM_TUD_df <- as.data.frame(CHMA)
 
