@@ -185,4 +185,4 @@ writeRaster(CHM_TUD, "data/CHM_TUD.tiff",
 
 # Working with multi-band rasters
 
-RG
+rast("data")
