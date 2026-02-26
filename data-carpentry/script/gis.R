@@ -162,4 +162,5 @@ ggplot(data = old_buildings) +
   coord_sf(datum = st_crs(28992))
 
 # Buffers
-
+distance <- 100
+#
