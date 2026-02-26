@@ -99,7 +99,7 @@ buildings2 <- buildings |>
 leaflet(buildings2) |>
   addProviderTiles(providers$CartoDB.Positron) |>
   addPolygons(
-
+color = "#444444"
   fillColor = ~ colorQuantile("YlGnBu", -build_date)(-build_date),
   )
 
