@@ -121,7 +121,9 @@ ggplot() +
   #     alpha = `tud-dtm-5m-hill`
   #   )
   # ) +
-  
+  geom_raster(
+    data = DTM
+  )
   scale_fill_gradientn(name = "Elevation",
                        colors = terrain.colors(10)) +
   coord_equal()
