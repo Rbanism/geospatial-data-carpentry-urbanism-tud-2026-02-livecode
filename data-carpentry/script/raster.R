@@ -163,7 +163,7 @@ ggplot() +
 
 # Raster calculations
 
-DTM_TUD_df
+DTM_TUD
 DSM_TUD
 
 
