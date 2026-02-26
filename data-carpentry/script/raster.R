@@ -16,7 +16,7 @@ DSM_TUD <- rast("data/tud-dsm-5m.tif")
 str(DSM_TUD)
 View(DSM_TUD)
 summary(DSM_TUD)  # but this uses a sample and the min/max might not be accurate
-summary(values(DSM_TUD)). 
+summary(values(DSM_TUD))  
 
 
 
