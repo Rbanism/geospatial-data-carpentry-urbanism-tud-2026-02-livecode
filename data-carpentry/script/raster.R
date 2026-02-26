@@ -78,3 +78,19 @@ ggplot() +
   # theme(axis.title = element_blank()) +
   theme_void() +
   coord_equal() 
+
+## Challenge solution
+DSM_TUD_df <- DSM_TUD_df |>
+  mutate(fct_elevation_6 = cut(`tud-dsm-5m`, breaks = 6))
+
+my_col <- terrain.colors(6)
+
+ggplot() +
+  geom_raster(data = DSM_TUD_df, aes(
+    x = x,
+    y = y,
+    fill = fct_elevation_6
+  )) +
+  scale_fill_manual(values = my_col, name = "Elevation") +
+  coord_equal() +
+  labs(title = "Elevation Classes of the Digital Surface Model (DSM)")
