@@ -133,9 +133,12 @@ assign("has_internet_via_proxy", TRUE, environment(curl::has_internet))
 
 # Get bounding box
 bb <- getbb("Brielle, NL")
+
+# Load OSM features
 x <- opq(bbox = bb, timeout = 10000) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
+
 
 buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
