@@ -95,7 +95,7 @@ ggplot() +
   coord_equal() +
   labs(title = "Elevation Classes of the Digital Surface Model (DSM)")
 
-# Reprojecting Raster Data
+# Reproject Raster Data
 
 
 
