@@ -63,7 +63,8 @@ extract_and_map_buildings <- function(cityname, year = 1900){
  bb <-getbb(cityname)
 
  x <- opq(bbox = bb, timeout = 10000) |>
-   add_osm_feature(key = "building")
+   add_osm_feature(key = "building") |>
+  osmdata_sf()
 
 }
 
