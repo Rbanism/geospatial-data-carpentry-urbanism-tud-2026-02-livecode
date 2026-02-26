@@ -9,3 +9,4 @@ bb <- getbb("Brielle")
 bb
 
 #Avoid ambiguous names
+bb <- getbb("Brielle, NL")
