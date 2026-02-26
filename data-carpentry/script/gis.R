@@ -205,5 +205,6 @@ ggplot() +
 
 # For this, we need to intersect the layers first
 centroids_buffers <- st_intersection(centroids_old, single_old_buffer) |>
+  mutate(n = 1)
 
 
