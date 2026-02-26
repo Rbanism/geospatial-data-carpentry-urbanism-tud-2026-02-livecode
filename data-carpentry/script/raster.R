@@ -196,7 +196,7 @@ ggplot() +
     data = RGB_band1_TUD_df,
     aes(x = x,
          y = y,
-         alpha = `tudlib-rgb_1`)
+         fill = `tudlib-rgb_1`)
   ) +
   coord_equal()
 
