@@ -9,3 +9,5 @@ describe("data/tud-dsm-5m.tif")
 
 # Load the data
 DSM_TUD <- rast("data/tud-dsm-5m.tif")
+
+# Shortcut for <- is alt/option + -
