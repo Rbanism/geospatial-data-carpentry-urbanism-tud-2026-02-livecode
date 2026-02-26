@@ -52,3 +52,5 @@ DSM_TUD_df <- DSM_TUD_df |>
 # examining the levels of a factor
 levels(DSM_TUD_df$fct_elevation_cb)
 
+# plot the new breaks
+ggplot()
