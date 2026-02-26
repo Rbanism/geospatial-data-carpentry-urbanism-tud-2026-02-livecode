@@ -14,6 +14,8 @@ bb
 
 # extracting features with opq()
 
+# if internet error
+
 assign("has_internet_via_proxy", TRUE, environment(curl::has_internet))
 
 x <- opq(bbox = bb) |>
