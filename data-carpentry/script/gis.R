@@ -59,6 +59,9 @@ coord_sf(datum = st_crs(28992))
 
 # creating a function
 
-extract_and_map_buildings <- function(cityname, year = 1900)
+extract_and_map_buildings <- function(cityname, year = 1900){
+
+
+}
 
 
