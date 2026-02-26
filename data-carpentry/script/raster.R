@@ -55,3 +55,4 @@ levels(DSM_TUD_df$fct_elevation_cb)
 # plot the new breaks
 ggplot() +
   geom_bar(data = DSM_TUD_df, aes(fct_elevation_cb))
+
