@@ -164,4 +164,6 @@ ggplot(data = old_buildings) +
 # Buffers
 distance <- 100 # in meters
 
+# check projection is in meters
+
 
