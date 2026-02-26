@@ -40,7 +40,7 @@ buildings <- x$osm_polygons |>
 
 
 buildings$build_date <- if_else(
-  buildings$start_date < 1900,# the condition
+  as.numeric(buildings$start_date) < 1900,# the condition
   1900,  #if yes
   buildings$start_date
   )  #if no
