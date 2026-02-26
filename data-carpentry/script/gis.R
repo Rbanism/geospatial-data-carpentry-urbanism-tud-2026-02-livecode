@@ -195,6 +195,7 @@ sf_use_s2(FALSE)
 centroids_old <- st_centroid(old_buildings) |>
   st_transform(crs = 28992)
 
+# Map buildings (as centroids) on top of buffer areas
 ggplot() +
   geom_sf(data = single_old_buffer, aes(fill = ID)) +
   geom_sf(data = centroids_old) +
