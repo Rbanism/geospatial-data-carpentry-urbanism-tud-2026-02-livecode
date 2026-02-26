@@ -180,4 +180,5 @@ ggplot() +
 
 # export raster
 writeRaster(CHM_TUD, "data/CHM_TUD.tiff",
-            filetype = "GTiff")
+            filetype = "GTiff",
+            overwrite)
