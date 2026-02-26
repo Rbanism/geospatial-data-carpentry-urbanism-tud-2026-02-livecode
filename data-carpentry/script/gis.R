@@ -220,6 +220,7 @@ ggplot() +
     alpha = 0.8,
     begin = 0.6,
     end = 1,
-    direction = -1
+    direction = -1,
+    option = "B"
 
   )
