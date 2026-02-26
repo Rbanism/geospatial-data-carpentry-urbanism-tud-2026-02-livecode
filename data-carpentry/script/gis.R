@@ -156,3 +156,4 @@ nrow(buildings)
 # Number of old buildings
 nrow(old_buildings)
 
+ggplot()
