@@ -196,5 +196,5 @@ ggplot() +
     data = RGB_band1_TUD_df,
     aeas(x = x,
          y = y,
-         alpha = )
+         alpha = `tudlib-rgb_1`)
   )
