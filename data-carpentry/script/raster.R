@@ -32,4 +32,4 @@ crs(DSM_TUD, proj = TRUE)
 minmax(DSM_TUD)
 DSM_TUD <- setMinMax(DSM_TUD)
 minmax(DSM_TUD)
-
+min(values(DSM_TUD))
