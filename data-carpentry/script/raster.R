@@ -73,7 +73,8 @@ ggplot() +
               aes(x = x,
                   y = y,
                   fill = fct_elevation_cb)) +
-  scale_fill_manual(values = terrain.colors(3)tion") + 
+  scale_fill_manual(values = terrain.colors(3)) +
+  labs = (fill = "")
   # theme(axis.title = element_blank()) +
   theme_void() +
   coord_equal() 
