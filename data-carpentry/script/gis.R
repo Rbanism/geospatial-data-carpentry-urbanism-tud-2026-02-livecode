@@ -86,3 +86,6 @@ ggplot(data = buildings) +
 }
 
 extract_and_map_buildings(cityname = "Naarden, NL")
+
+
+#
