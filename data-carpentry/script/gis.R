@@ -49,7 +49,7 @@ buildings$build_date <- if_else(
   )  #if no
 
 
-#
+# map
 ggplot(data = buildings)
 
 
