@@ -52,7 +52,7 @@ buildings$build_date <- if_else(
 # map
 ggplot(data = buildings) +
   geom_sf(aes(colour = build_date)) +
-  geom_sf(aes(fill = build_date)) +
+  geom_sf(aes(fill = build_date, colour)) +
   scale_fill_viridis_c(option = "viridis") +
  scale_colour_viridis_c(option = "viridis") +
 coord_sf(datum = st_crs(28992))
