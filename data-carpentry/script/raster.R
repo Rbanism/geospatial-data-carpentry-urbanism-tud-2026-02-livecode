@@ -21,5 +21,5 @@ summary(values(DSM_TUD))  # but this will take long for large data
 # Visualising the DSM using ggplot
 DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 head(DSM_TUD_df)
-
+str(DSM_TUD_df)
 
