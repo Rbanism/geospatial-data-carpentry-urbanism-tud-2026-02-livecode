@@ -136,7 +136,7 @@ x <- opq(bbox = bb, timeout = 10000) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
 
-
+x$osm_polygons |>
 
 
 
