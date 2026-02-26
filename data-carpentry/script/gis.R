@@ -69,6 +69,14 @@ extract_and_map_buildings <- function(cityname, year = 1900){
 buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
+buildings$start_date <- as.numeric(buildings$start_date)
+
+buildings$build_date <- if_else(
+  buildings$start_date < 1900,# the condition
+  1900,  #if yes
+  buildings$start_date
+)  #if no
+
 
 
 }
