@@ -35,7 +35,8 @@ summary(x$osm_polygons)
 
 ## Start mapping old buildings from Brielle!
 
-st_transform(crs = 28992)
+x$osm_polygons |>
+  st_transform(crs = 28992)
 
 
 
