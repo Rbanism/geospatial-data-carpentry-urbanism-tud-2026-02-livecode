@@ -200,3 +200,6 @@ ggplot() +
   ) +
   coord_equal()
 
+# Raster Stacks!
+
+
