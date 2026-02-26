@@ -94,3 +94,5 @@ ggplot() +
   scale_fill_manual(values = my_col, name = "Elevation") +
   coord_equal() +
   labs(title = "Elevation Classes of the Digital Surface Model (DSM)")
+
+# 
