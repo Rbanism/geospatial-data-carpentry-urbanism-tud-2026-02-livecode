@@ -183,4 +183,6 @@ writeRaster(CHM_TUD, "data/CHM_TUD.tiff",
             filetype = "GTiff",
             overwrite = TRUE)
 
+# Working with multi-band rasters
+
 
