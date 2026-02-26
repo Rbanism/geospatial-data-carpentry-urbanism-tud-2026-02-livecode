@@ -23,6 +23,6 @@ DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 head(DSM_TUD_df)
 str(DSM_TUD_df)
 ggplot() +
-  
+  geom_
   
   
