@@ -145,3 +145,4 @@ old <- 1800
 
 old_buildings <- buildings |>
   filter(start_date <= old)
+
