@@ -12,3 +12,4 @@ bb
 bb <- getbb("Brielle, NL")
 bb
 
+# extracting features
