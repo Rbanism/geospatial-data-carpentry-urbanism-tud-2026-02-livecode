@@ -35,6 +35,7 @@ summary(x$osm_polygons)
 
 ## Start mapping old buildings from Brielle!
 
+crs
 
 
 
