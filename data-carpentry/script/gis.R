@@ -139,7 +139,7 @@ x <- opq(bbox = bb, timeout = 10000) |>
 buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
-
+buildings$as
 
 
 
