@@ -18,6 +18,7 @@ View(DSM_TUD)
 summary(DSM_TUD)  # but this uses a sample and the min/max might not be accurate
 summary(values(DSM_TUD))  # but this will take long for large data
 
+# Visualising the DSM using ggplot
 
 
 
