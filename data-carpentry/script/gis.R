@@ -20,5 +20,6 @@ x <- opq(bbox = bb) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
 
+#
 
 
