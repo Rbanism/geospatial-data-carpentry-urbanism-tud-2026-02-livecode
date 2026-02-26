@@ -209,5 +209,5 @@ centroids_buffers <- st_intersection(centroids_old, single_old_buffer) |>
 
 centroid_by_buffer <- centroids_buffers |>
   group_by(ID) |>
-
+  summarise(n_buildings = n())
 
