@@ -112,11 +112,18 @@ leaflet(buildings2) |>
   )
 
 
+
+
 ###########
 #
 # Part 2
+#
+###########
 
 
 ### R as a GIS
+
+
+
 
 
