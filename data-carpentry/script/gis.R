@@ -133,7 +133,8 @@ assign("has_internet_via_proxy", TRUE, environment(curl::has_internet))
 
 bb <- getbb("Brielle, NL")
 x <- opq(bbox = bb, timeout = 10000) |>
-  add_osm_feature()
+  add_osm_feature(key = "building") |>
+os
 
 
 
