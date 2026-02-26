@@ -63,3 +63,4 @@ ggplot() +
               aes(x = x,
                   y = y,
                   fill = fct_elevation_cb))
+
