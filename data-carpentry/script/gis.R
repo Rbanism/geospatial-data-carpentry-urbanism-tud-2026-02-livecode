@@ -204,5 +204,5 @@ ggplot() +
 # Count the buildings in the zone
 
 # For this, we need to intersect the layers first
-st_intersection(centroids_old, single_old_buffer)
+centroids_buffers <- st_intersection(centroids_old, single_old_buffer)
 
