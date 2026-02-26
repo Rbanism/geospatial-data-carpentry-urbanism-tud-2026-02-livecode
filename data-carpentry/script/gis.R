@@ -216,3 +216,4 @@ single_buffer <- single_old_buffer |>
 
 ggplot() +
   geom_sf(data = single_buffer, aes(fill = n_buildings)) +
+  scale_
