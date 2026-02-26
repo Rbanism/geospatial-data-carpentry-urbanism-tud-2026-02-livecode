@@ -203,3 +203,6 @@ ggplot() +
 
 # Count the buildings in the zone
 
+# For this, we need to intersect the layers first
+
+
