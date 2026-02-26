@@ -118,7 +118,7 @@ ggplot() +
     aes(
       x = x,
       y = y,
-      fill = 
+      fill = `tud-dtm-5m-hill`
     )
   )
 
