@@ -12,4 +12,7 @@ bb
 bb <- getbb("Brielle, NL")
 bb
 
-# extracting features
+# extracting features with opq()
+
+
+
