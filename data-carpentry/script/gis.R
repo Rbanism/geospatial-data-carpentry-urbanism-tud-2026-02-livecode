@@ -174,4 +174,6 @@ st_crs(old_buildings)$units
 buffer_old_buildings <- st_buffer(x = old_buildings, dist = distance)
 
 # Map buffers
-ggplot(data = )
+ggplot(data = buffer_old_buildings) +
+  geom_sf() +
+  coord_sf(datum = )
