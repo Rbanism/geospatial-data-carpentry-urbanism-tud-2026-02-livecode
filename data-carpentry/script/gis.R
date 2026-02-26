@@ -14,7 +14,7 @@ bb
 
 # extracting features with opq()
 
-
+assign("has_internet")
 
 x <- opq(bbox = bb) |>
   add_osm_feature(key = "building") |>
