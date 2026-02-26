@@ -110,7 +110,7 @@ ggplot() +
     aes(
       x = x,
       y = y,
-      fill = `dtm-tud-5m`
+      fill = `tud-dtm-5m`
     )
   ) +
   geom_raster(
