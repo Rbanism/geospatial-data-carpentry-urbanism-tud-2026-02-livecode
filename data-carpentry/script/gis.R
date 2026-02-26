@@ -136,7 +136,7 @@ x <- opq(bbox = bb, timeout = 10000) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
 
-x$osm_polygons |>
+buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
 
