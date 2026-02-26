@@ -118,7 +118,7 @@ ggplot() +
     aes(
       x = x,
       y = y,
-      fill = `tud-dtm-5m-hill`
+      alpha = `tud-dtm-5m-hill`
     )
   ) +
   scale_fill_gradientn(name = "Elevation",
