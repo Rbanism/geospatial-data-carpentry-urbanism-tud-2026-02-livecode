@@ -103,7 +103,11 @@ DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 ggplot() +
   geom_raster(
     data = DTM_TUD,
-    aes()
+    aes(
+      x = x,
+      y = y,
+      fill = 
+    )
   )
 
 
