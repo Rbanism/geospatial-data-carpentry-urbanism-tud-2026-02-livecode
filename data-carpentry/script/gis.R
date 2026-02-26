@@ -227,3 +227,4 @@ ggplot() +
   coord_sf(datum = st_crs(28992))
 
 # Make the map with new rules! pre-1945 buildings and 10m buffer
+
