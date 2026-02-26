@@ -207,4 +207,4 @@ ggplot() +
 centroids_buffers <- st_intersection(centroids_old, single_old_buffer) |>
   mutate(n = 1)
 
-
+centroid_by_buffer <-
