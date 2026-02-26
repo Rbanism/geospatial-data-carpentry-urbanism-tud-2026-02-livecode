@@ -156,7 +156,9 @@ nrow(buildings)
 # Number of old buildings
 nrow(old_buildings)
 
+# Map old buildings
 ggplot(data = old_buildings) +
   geom_sf(colour = "red", fill = "red") +
   coord_sf(datum = st_crs(28992))
+
 
