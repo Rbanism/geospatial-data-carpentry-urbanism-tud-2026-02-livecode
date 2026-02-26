@@ -183,6 +183,7 @@ single_old_buffer <- st_union(buffer_old_buildings) |>
   st_cast(to = "POLYGON") |>
   st_as_sf()
 
+# Create ID of buffers for visualisation and reporting
 single_old_buffer <- single_old_buffer |>
   mutate("ID" = as.factor(seq_len(nrow(single_old_buffer)))) |>
  st_transform(crs = 28992)
