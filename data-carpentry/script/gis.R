@@ -126,7 +126,7 @@ leaflet(buildings2) |>
 library(sf)
 library(tidyverse)
 library(osmdata)
-librar
+library()
 
 
 
