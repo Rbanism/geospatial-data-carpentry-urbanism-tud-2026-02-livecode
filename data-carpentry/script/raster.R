@@ -211,4 +211,4 @@ RGB_stack_TUD[[2]]
 
 
 plotRGB(RGB_stack_TUD,
-        )
+        r = 1, g = 2, b = 3)
