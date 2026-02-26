@@ -137,3 +137,27 @@ DTM_TUD_hill_28992 <- project(DTM_TUD_hill, crs(DTM_TUD))
 crs(DTM_TUD_hill_28992)
 DTM_TUD_hill_28992_df <- as.data.frame(DTM_TUD_hill_28992,
                                        xy = TRUE)
+
+
+# Plotting the layers together
+ggplot() +
+  geom_raster(
+    data = DTM_TUD_df,
+    aes(
+      x = x,
+      y = y,
+      fill = `tud-dtm-5m`
+    )
+  ) +
+  geom_raster(
+    # data = DTM_TUD_hill_df,
+    data = DTM_TUD_hill_28992_df,
+    aes(
+      x = x,
+      y = y,
+      alpha = `tud-dtm-5m-hill`
+    )
+  ) +
+  scale_fill_gradientn(name = "Elevation",
+                       colors = terrain.colors(10)) +
+  coord_equal()
