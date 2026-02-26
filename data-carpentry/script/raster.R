@@ -129,4 +129,4 @@ ggplot() +
 crs(DTM_TUD)
 crs(DTM_TUD_hill)
 
-DTM_TU
+DTM_TUD_hill <- reproject()
