@@ -28,6 +28,7 @@ x <-opq(bbox = bb, timeout = 10000) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
 
+#explore the result
 str(x$osm_polygons)
 head(x$osm_polygons)
 summary(x$osm_polygons)
