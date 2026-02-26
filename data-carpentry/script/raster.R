@@ -206,5 +206,5 @@ RGB_stack_TUD <- rast("data/tudlib-rgb.tif")
 
 RGB_stack_TUD
 
-# explore one layer
+# explore one layer (the second)
 RGB_stack_TUD[[2]]
