@@ -187,3 +187,5 @@ writeRaster(CHM_TUD, "data/CHM_TUD.tiff",
 
 RGB_band1_TUD <- rast("data/tudlib-rgb.tif", lyrs = 1)
 
+# Let's plot this band!
+
