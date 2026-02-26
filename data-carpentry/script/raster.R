@@ -108,6 +108,7 @@ ggplot() +
       y = y,
       fill = `dtm-tud-5m`
     )
-  )
+  ) +
+  geom_Raster
 
 
