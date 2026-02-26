@@ -189,4 +189,5 @@ single_old_buffer <- single_old_buffer |>
  st_transform(crs = 28992)
 
 # Centroids
-st_centroid(old_buildings)
+st_centroid(old_buildings) |>
+  st_transform(crs = 28992)
