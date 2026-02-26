@@ -137,6 +137,7 @@ x <- opq(bbox = bb, timeout = 10000) |>
   osmdata_sf()
 
 x$osm_polygons |>
+  st_transform(crs = 28992)
 
 
 
