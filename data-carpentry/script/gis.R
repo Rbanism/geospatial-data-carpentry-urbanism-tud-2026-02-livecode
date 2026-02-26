@@ -218,4 +218,8 @@ ggplot() +
   geom_sf(data = single_buffer, aes(fill = n_buildings)) +
   scale_fill_viridis_c(
     alpha = 0.8,
+    begin = 0.6,
+    end = 1,
+    direction = -1
+
   )
