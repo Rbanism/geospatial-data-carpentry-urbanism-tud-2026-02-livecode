@@ -99,6 +99,7 @@ ggplot() +
 DTM_TUD <- rast("data/tud-dtm-5m.tif")
 DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
+crs(DTM_TUD)
 crs()
 
 # Create data frames for plotting
