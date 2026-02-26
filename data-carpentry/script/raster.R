@@ -44,4 +44,4 @@ DSM_TUD_df <- DSM_TUD_df |>
 ggplot() +
   geom_bar(data = DSM_TUD_df, aes(fct_elevation))
 
-custom_bins <- c(-10, )
+custom_bins <- c(-10, 0, 5, 100)
