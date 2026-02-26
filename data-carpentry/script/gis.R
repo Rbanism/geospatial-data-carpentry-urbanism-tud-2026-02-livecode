@@ -100,6 +100,6 @@ leaflet(buildings2) |>
   addProviderTiles(providers$CartoDB.Positron) |>
   addPolygons(
 
-)
+  )
 
 
