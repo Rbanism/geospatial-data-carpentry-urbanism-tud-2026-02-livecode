@@ -15,3 +15,4 @@ DSM_TUD <- rast("data/tud-dsm-5m.tif")
 # Exploring an object in R
 str(DSM_TUD)
 View(DSM_TUD)
+summary()
