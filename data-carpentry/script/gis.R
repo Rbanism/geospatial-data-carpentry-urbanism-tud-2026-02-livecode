@@ -8,4 +8,4 @@ library(osmdata)
 bb <- getbb("Brielle")
 bb
 
-#Avoid
+#Avoid ambiguous names
