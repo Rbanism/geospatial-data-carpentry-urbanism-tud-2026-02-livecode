@@ -167,4 +167,6 @@ distance <- 100 # in meters
 # check projection is in meters
 st_crs(old_buildings)
 
+# Extract gdal units
+st_crs(old_buildings)$gdal
 
