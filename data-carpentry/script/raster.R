@@ -210,4 +210,5 @@ RGB_stack_TUD
 RGB_stack_TUD[[2]]
 
 
-plotRGB(RGB_stack_TUD,)
+plotRGB(RGB_stack_TUD,
+        )
