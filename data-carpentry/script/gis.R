@@ -215,7 +215,7 @@ single_buffer <- single_old_buffer |>
   st_join(centroid_by_buffer, left = TRUE)
 
 ggplot() +
-  geom_sf()
+  geom_sf(data = buildings) +
   geom_sf(data = single_buffer, aes(fill = n_buildings)) +
   scale_fill_viridis_c(
     alpha = 0.8,
