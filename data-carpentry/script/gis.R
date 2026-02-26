@@ -33,7 +33,7 @@ str(x$osm_polygons)
 head(x$osm_polygons)
 summary(x$osm_polygons)
 
-
+## Start mapping buildings from Brielle!
 
 
 
