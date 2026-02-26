@@ -105,7 +105,9 @@ leaflet(buildings2) |>
   opacity = 0.2,
   fillOpacity =0.8,
   fillColor = ~ colorQuantile("YlGnBu", -build_date)(-build_date),
-  highlight
+  highlightOptions = highlightOptiona(
+    color = "white", weight
+  )
   )
 
 
