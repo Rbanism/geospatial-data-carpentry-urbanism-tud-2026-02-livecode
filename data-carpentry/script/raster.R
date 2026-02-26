@@ -122,6 +122,6 @@ ggplot() +
     )
   ) +
   scale_fill_gradientn(name = "Elevation",
-                       colors = )
+                       colors = terrain.colors(10))
 
 
