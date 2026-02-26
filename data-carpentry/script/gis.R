@@ -67,7 +67,9 @@ extract_and_map_buildings <- function(cityname, year = 1900){
     osmdata_sf()
 
 buildings <- x$osm_polygons |>
-  st_transform()
+  st_transform(crs = 28992)
+
+
 
 }
 
