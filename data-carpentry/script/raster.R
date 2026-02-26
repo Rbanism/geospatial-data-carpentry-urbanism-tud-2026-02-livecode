@@ -8,4 +8,4 @@ library(terra)
 describe("data/tud-dtm-5m.tif")
 
 # Load the data
-rast()
+rast("data/tud-dtm-5m.tif")
