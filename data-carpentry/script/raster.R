@@ -100,7 +100,7 @@ DTM_TUD <- rast("data/tud-dtm-5m.tif")
 DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
 crs(DTM_TUD)
-crs()
+crs(DTM_TUD_hill)
 
 # Create data frames for plotting
 DTM_TUD_df <- as.data.frame(DTM_TUD, xy = TRUE)
