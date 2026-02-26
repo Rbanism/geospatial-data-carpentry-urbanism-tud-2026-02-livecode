@@ -73,4 +73,4 @@ ggplot() +
               aes(x = x,
                   y = y,
                   fill = fct_elevation_cb)) +
-  scale_fill_manual(v)
+  scale_fill_manual(values = )
