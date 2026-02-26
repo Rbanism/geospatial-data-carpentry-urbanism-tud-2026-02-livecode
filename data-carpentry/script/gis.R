@@ -180,5 +180,6 @@ ggplot(data = buffer_old_buildings) +
 
 # Union
 single_old_buffer <- st_union(buffer_old_buildings) |>
-  st_cast(to = "POLYGON")
+  st_cast(to = "POLYGON") |>
+  st_as_sf()
 
