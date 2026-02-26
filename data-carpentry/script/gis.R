@@ -215,4 +215,4 @@ single_buffer <- single_old_buffer |>
   st_join(centroid_by_buffer, left = TRUE)
 
 ggplot() +
-  geom_sf(data = single_buffer)
+  geom_sf(data = single_buffer, )
