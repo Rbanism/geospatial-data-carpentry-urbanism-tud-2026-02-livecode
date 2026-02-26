@@ -157,4 +157,4 @@ nrow(buildings)
 nrow(old_buildings)
 
 ggplot(data = old_buildings) +
-  geom_sf()
+  geom_sf(colour = "red")
