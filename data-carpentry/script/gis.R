@@ -24,6 +24,6 @@ x <- opq(bbox = bb) |>
 
 # if timeout error
 
-x <-opq(bbox = bb, timeout = )
+x <-opq(bbox = bb, timeout = 10000)
 
 
