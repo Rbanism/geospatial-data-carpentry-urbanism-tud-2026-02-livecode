@@ -261,15 +261,10 @@ centroid_by_buffer <- centroids_buffers |>
 single_buffer <- single_old_buffer |>
   st_join(centroid_by_buffer, left = TRUE)
 
-single_buffer$area <- st_area(single_buffer) |>
-  set_units(km^2)
-single_buffer$old_buildings_per_km2 <-
-  as.numeric(single_buffer$n_buildings / single_buffer$area)
-
 ggplot() +
   geom_sf(data = buildings) +
   geom_sf(data = single_buffer,
-          aes(fill=old_buildings_per_km2),
+          aes(fill=n_buildings),
           colour = NA) +
   scale_fill_viridis_c(
     alpha = 0.6,
