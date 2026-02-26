@@ -211,5 +211,5 @@ centroid_by_buffer <- centroids_buffers |>
   group_by(ID) |>
   summarise(n_buildings = n())
 
-single_old_buffer |>
+single_buffer <- single_old_buffer |>
   st_join(centroid_by_buffer)
