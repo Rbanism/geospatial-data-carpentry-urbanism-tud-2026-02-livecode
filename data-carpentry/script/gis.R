@@ -213,3 +213,4 @@ centroid_by_buffer <- centroids_buffers |>
 
 single_buffer <- single_old_buffer |>
   st_join(centroid_by_buffer, left = TRUE)
+
