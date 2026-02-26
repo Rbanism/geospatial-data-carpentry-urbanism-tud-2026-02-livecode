@@ -129,6 +129,7 @@ library(osmdata)
 library(leaflet)
 library(units)
 library(lwgeom)
+assign("has_internet_via_proxy", TRUE, environment(curl::has_internet))
 
 
 
