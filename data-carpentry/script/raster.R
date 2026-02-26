@@ -5,4 +5,4 @@ library(tidyverse)
 library(terra)
 
 # Examine the data before loading it
-describe("data/tud-dtm-5m.tif")
+describe("data")
