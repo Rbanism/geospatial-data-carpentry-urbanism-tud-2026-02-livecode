@@ -179,5 +179,6 @@ ggplot(data = buffer_old_buildings) +
   coord_sf(datum = st_crs(28992))
 
 # Union
-single_old_buffer <- st_union(buffer_old_buildings)
+single_old_buffer <- st_union(buffer_old_buildings) |>
+  st_cast()
 
