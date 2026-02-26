@@ -59,4 +59,6 @@ ggplot() +
 # plot the map
 
 ggplot() +
-  geom_raster(data = DSM_TUD_df, aes(x = x, y = y, fill = ))
+  geom_raster(data = DSM_TUD_df,
+              aes(x = x,
+                  y = y, fill = ))
