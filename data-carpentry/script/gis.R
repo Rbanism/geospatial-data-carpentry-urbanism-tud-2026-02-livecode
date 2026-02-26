@@ -45,3 +45,4 @@ buildings$build_date <- if_else(
   as.numeric(buildings$start_date)
   )  #if no
 
+buildings
