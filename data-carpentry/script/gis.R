@@ -54,5 +54,5 @@ ggplot(data = buildings) +
   geom_sf(aes(fill = build_date))+ #group1&2
  # geom_sf(aes(colour = build_date))+ #group3&4
   scale_fill_viridis_c(option = "viridis") +
-
+# scale_
 
