@@ -228,4 +228,49 @@ ggplot() +
 
 # Make the map with new rules! pre-1945 buildings and 10m buffer
 old <- 1939
-distance <-10
+distance <- 10
+
+
+# select
+old_buildings <- buildings |>
+  filter(start_date <= old)
+
+# buffer
+buffer_old_buildings <- st_buffer(old_buildings, dist = distance)
+
+# union
+single_old_buffer <- st_union(buffer_old_buildings) |>
+  st_cast(to = "POLYGON") |>
+  st_as_sf()
+
+single_old_buffer <- single_old_buffer |>
+  mutate("ID" = seq_len(nrow(single_old_buffer))) |>
+  st_transform(single_old_buffer, crs = 4326)
+
+# centroids
+centroids_old <- st_centroid(old_buildings) |>
+  st_transform(crs = 4326)
+
+# intersection & join
+centroids_buffers <-
+  st_intersection(centroids_old, single_old_buffer)
+
+centroid_by_buffer <- centroids_buffers |>
+  group_by(ID) |>
+  summarise(n_buildings = n())
+
+single_buffer <- single_old_buffer |>
+  st_join(centroid_by_buffer, left = TRUE)
+
+ggplot() +
+  geom_sf(data = buildings) +
+  geom_sf(data = single_buffer,
+          aes(fill=n_buildings),
+          colour = NA) +
+  scale_fill_viridis_c(
+    alpha = 0.6,
+    begin = 0.6,
+    end = 1,
+    direction = -1,
+    option = "B"
+  )
