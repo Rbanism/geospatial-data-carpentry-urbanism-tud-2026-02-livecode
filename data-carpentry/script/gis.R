@@ -201,3 +201,4 @@ ggplot() +
   geom_sf(data = centroids_old) +
   coord_sf(datum = st_crs(28992))
 
+#
