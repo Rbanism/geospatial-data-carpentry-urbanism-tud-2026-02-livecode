@@ -125,6 +125,6 @@ ggplot() +
                        colors = terrain.colors(10)) +
   coord_equal()
 
-
+# rasters do not align, checking the CRSs of both layers
 crs(DTM_TUD)
 crs(DTM_TUD_hill)
