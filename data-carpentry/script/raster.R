@@ -189,7 +189,7 @@ RGB_band1_TUD <- rast("data/tudlib-rgb.tif", lyrs = 1)
 
 # Let's plot this band!
 
-RGB_band1_TUD_df <- as.data.frame(RGB_band1_TUD)
+RGB_band1_TUD_df <- as.data.frame(RGB_band1_TUD, xy = TRUE)
 
 ggplot() +
   geom_raster(
