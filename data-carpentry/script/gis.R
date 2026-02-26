@@ -97,6 +97,6 @@ buildings2 <- buildings |>
   st_transform(crs = 4326)
 
 leaflet(buildings2) |>
-  add
+  addProviderTiles(providers$)
 
 
