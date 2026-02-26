@@ -178,7 +178,7 @@ ggplot(data = buffer_old_buildings) +
   geom_sf() +
   coord_sf(datum = st_crs(28992))
 
-# Union
+# Union and cast to POLYGON from MULTIPOLYGON
 single_old_buffer <- st_union(buffer_old_buildings) |>
   st_cast(to = "POLYGON") |>
   st_as_sf()
