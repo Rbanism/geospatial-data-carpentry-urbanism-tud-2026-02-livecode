@@ -175,5 +175,6 @@ ggplot() +
                                   y=y,
                                   fill=`tud-dsm-5m`))+
   scale_fill_gradientn(colors = terrain.colors(10))
-  coord_equal()
+  coord_equal()+
+    theme_void()
   
