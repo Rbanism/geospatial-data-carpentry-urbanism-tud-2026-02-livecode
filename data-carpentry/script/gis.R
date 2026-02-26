@@ -195,3 +195,5 @@ sf_use_s2(FALSE)
 centroids_old <- st_centroid(old_buildings) |>
   st_transform(crs = 28992)
 
+ggplot()
+ +
