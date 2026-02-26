@@ -101,6 +101,9 @@ DTM_TUD_hill <- rast("data/tud-dtm-5m-hill-WGS84.tif")
 
 # Plotting the layers together
 ggplot() +
-  geom_raster(data)
+  geom_raster(
+    data = DTM_TUD,
+    aes()
+  )
 
 
