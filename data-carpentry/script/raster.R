@@ -106,7 +106,7 @@ ggplot() +
     aes(
       x = x,
       y = y,
-      fill = 
+      fill = `dtm-tud-5m`
     )
   )
 
