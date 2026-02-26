@@ -109,6 +109,8 @@ ggplot() +
       fill = `dtm-tud-5m`
     )
   ) +
-  geom_Raster
+  geom_raster(
+    data = DTM_TUD_hill
+  )
 
 
