@@ -9,7 +9,7 @@ bb <- getbb("Brielle")
 bb
 
 #Avoid ambiguous names
-bb <- getbb("Brielle, NL")
+bb <- getbb("Naarden, NL")
 bb
 
 # extracting features with opq()
