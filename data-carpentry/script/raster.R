@@ -22,7 +22,7 @@ summary(values(DSM_TUD))  # but this will take long for large data
 DSM_TUD_df <- as.data.frame(DSM_TUD, xy = TRUE)
 head(DSM_TUD_df)
 str(DSM_TUD_df)
-ggplot() +
-  geom_raster(data = DSM)
+ggplot(data = DSM_TUD_df) +
+  geom_raster()
   
   
