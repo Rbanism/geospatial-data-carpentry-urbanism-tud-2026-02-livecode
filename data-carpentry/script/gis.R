@@ -171,3 +171,4 @@ st_crs(old_buildings)
 st_crs(old_buildings)$units
 
 buffer_old_buildings <- st_buffer(x = old_buildings, dist = distance)
+
