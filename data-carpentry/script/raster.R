@@ -185,4 +185,4 @@ writeRaster(CHM_TUD, "data/CHM_TUD.tiff",
 
 # Working with multi-band rasters
 
-RGBrast("data/tudlib-rgb.tif", lyrs = 1)
+RGB_band1_TUD <- rast("data/tudlib-rgb.tif", lyrs = 1)
