@@ -10,9 +10,6 @@ Go to the file in which the instructor is now coding:
 - [raster.R](https://github.com/Rbanism/geospatial-data-carpentry-urbanism-tud-2026-02-livecode/blob/main/data-carpentry/script/raster.R)
 - [gis.R](https://github.com/Rbanism/geospatial-data-carpentry-urbanism-tud-2026-02-livecode/blob/main/data-carpentry/script/gis.R) 
 
->>>>>>> c0b71d77c17e1bcb3158ecfcfc8e065163310ddf
-
-
 You don't see the most recent lines of code? Be patient and refresh the page and see the new commands coming in!
 
 > **Note**: 
