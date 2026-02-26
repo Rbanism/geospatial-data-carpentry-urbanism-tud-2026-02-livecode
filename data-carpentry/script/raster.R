@@ -114,7 +114,8 @@ ggplot() +
     )
   ) +
   geom_raster(
-    data = DTM_TUD_hill_df,
+    # data = DTM_TUD_hill_df,
+    data = 
     aes(
       x = x,
       y = y,
