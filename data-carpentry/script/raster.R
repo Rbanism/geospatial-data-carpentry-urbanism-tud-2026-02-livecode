@@ -65,3 +65,4 @@ ggplot() +
                   fill = fct_elevation_cb))+
   coord_equal()
 
+terrain.colors()
