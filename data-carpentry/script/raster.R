@@ -129,4 +129,4 @@ ggplot() +
 crs(DTM_TUD)
 crs(DTM_TUD_hill)
 
-DTM_TUD_hill_28992 <- project(DTM)
+DTM_TUD_hill_28992 <- project(DTM_TUD_hill, )
