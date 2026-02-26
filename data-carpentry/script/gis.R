@@ -88,7 +88,7 @@ ggplot(data = buildings) +
 extract_and_map_buildings(cityname = "Naarden, NL")
 
 
-#Challenge solution
+#A Challenge solution
 
 
 library(leaflet)
@@ -97,6 +97,6 @@ buildings2 <- buildings |>
   st_transform(crs = 4326)
 
 leaflet(buildings2) |>
-add
+  add
 
 
