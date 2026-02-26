@@ -94,7 +94,8 @@ extract_and_map_buildings(cityname = "Naarden, NL")
 library(leaflet)
 
 buildings2 <- buildings |>
-  st_transform(crs = )
+  st_transform(crs = 4326)
+
 
 
 
