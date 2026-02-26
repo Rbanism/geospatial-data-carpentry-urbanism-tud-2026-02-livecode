@@ -139,7 +139,7 @@ DTM_TUD_hill_28992_df <- as.data.frame(DTM_TUD_hill_28992,
                                        xy = TRUE)
 
 
-# Plotting the layers together
+# Plotting the correct layers together
 ggplot() +
   geom_raster(
     data = DTM_TUD_df,
@@ -150,7 +150,6 @@ ggplot() +
     )
   ) +
   geom_raster(
-    # data = DTM_TUD_hill_df,
     data = DTM_TUD_hill_28992_df,
     aes(
       x = x,
