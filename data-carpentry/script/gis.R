@@ -139,7 +139,7 @@ x <- opq(bbox = bb, timeout = 10000) |>
   add_osm_feature(key = "building") |>
   osmdata_sf()
 
-
+# Transform to NL CRS
 buildings <- x$osm_polygons |>
   st_transform(crs = 28992)
 
