@@ -97,6 +97,9 @@ buildings2 <- buildings |>
   st_transform(crs = 4326)
 
 leaflet(buildings2) |>
-  addProviderTiles(providers$)
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addPolygons(
+
+)
 
 
