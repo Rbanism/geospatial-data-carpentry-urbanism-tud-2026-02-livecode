@@ -222,4 +222,5 @@ ggplot() +
     end = 1,
     direction = -1,
     option = "B"
-  )
+  ) +
+  coord_sf(datum = st_crs(28992))
